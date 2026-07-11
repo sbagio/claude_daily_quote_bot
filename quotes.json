@@ -1,17 +1,5933 @@
 [
-  { "text": "The only way to do great work is to love what you do.", "author": "Steve Jobs", "tags": ["work", "passion"] },
-  { "text": "Simplicity is the ultimate sophistication.", "author": "Leonardo da Vinci", "tags": ["design", "simplicity"] },
-  { "text": "Whether you think you can or you think you can't, you're right.", "author": "Henry Ford", "tags": ["mindset"] },
-  { "text": "The best way to predict the future is to invent it.", "author": "Alan Kay", "tags": ["future", "creativity"] },
-  { "text": "Premature optimization is the root of all evil.", "author": "Donald Knuth", "tags": ["engineering"] },
-  { "text": "It always seems impossible until it's done.", "author": "Nelson Mandela", "tags": ["perseverance"] },
-  { "text": "Programs must be written for people to read, and only incidentally for machines to execute.", "author": "Harold Abelson", "tags": ["engineering"] },
-  { "text": "Discipline is choosing between what you want now and what you want most.", "author": "Abraham Lincoln", "tags": ["discipline"] },
-  { "text": "The obstacle is the way.", "author": "Marcus Aurelius", "tags": ["stoicism"] },
-  { "text": "Make it work, make it right, make it fast.", "author": "Kent Beck", "tags": ["engineering"] },
-  { "text": "You do not rise to the level of your goals. You fall to the level of your systems.", "author": "James Clear", "tags": ["habits"] },
-  { "text": "Everything should be made as simple as possible, but not simpler.", "author": "Albert Einstein", "tags": ["simplicity"] },
-  { "text": "The secret of getting ahead is getting started.", "author": "Mark Twain", "tags": ["action"] },
-  { "text": "What we do now echoes in eternity.", "author": "Marcus Aurelius", "tags": ["stoicism"] },
-  { "text": "Done is better than perfect.", "author": "Sheryl Sandberg", "tags": ["action"] }
+  {
+    "text": "Memento Mori",
+    "author": "Unknown",
+    "tags": [
+      "death",
+      "mortality"
+    ]
+  },
+  {
+    "text": "We may not have tomorrow",
+    "author": "Unknown",
+    "tags": [
+      "mortality",
+      "urgency"
+    ]
+  },
+  {
+    "text": "He who dares, wins!",
+    "author": "Unknown",
+    "tags": [
+      "courage",
+      "action"
+    ]
+  },
+  {
+    "text": "I do not fear death, I fear not to live fully.",
+    "author": "Wim Hof",
+    "tags": [
+      "death",
+      "life"
+    ]
+  },
+  {
+    "text": "Set your life on fire. Seek those who fan your flames.",
+    "author": "Jalaluddin Rumi",
+    "tags": [
+      "passion",
+      "inspiration"
+    ]
+  },
+  {
+    "text": "Everything that is made beautiful and fir and lovely is made for the eye of one who sees",
+    "author": "Jalaluddin Rumi",
+    "tags": [
+      "beauty",
+      "perception"
+    ]
+  },
+  {
+    "text": "If you are irritated by every rub, how will your mirror be polished?",
+    "author": "Jalaluddin Rumi",
+    "tags": [
+      "patience",
+      "growth"
+    ]
+  },
+  {
+    "text": "What you see is seeking you",
+    "author": "Jalaluddin Rumi",
+    "tags": [
+      "perception",
+      "destiny"
+    ]
+  },
+  {
+    "text": "I know you are tired, but come, this is the way",
+    "author": "Jalaluddin Rumi",
+    "tags": [
+      "perseverance",
+      "hope"
+    ]
+  },
+  {
+    "text": "Wherever you are and whatever you do, be in love",
+    "author": "Jalaluddin Rumi",
+    "tags": [
+      "love",
+      "presence"
+    ]
+  },
+  {
+    "text": "I am not this hair, I am not this skin, I am the soul that lives within",
+    "author": "Jalaluddin Rumi",
+    "tags": [
+      "soul",
+      "identity"
+    ]
+  },
+  {
+    "text": "The lion is most handsome when looking for food",
+    "author": "Jalaluddin Rumi",
+    "tags": [
+      "purpose",
+      "action"
+    ]
+  },
+  {
+    "text": "Beauty surrounds us",
+    "author": "Jalaluddin Rumi",
+    "tags": [
+      "beauty",
+      "gratitude"
+    ]
+  },
+  {
+    "text": "You are not a drop in the ocean. You are the entire ocean in a drop",
+    "author": "Jalaluddin Rumi",
+    "tags": [
+      "self",
+      "wholeness"
+    ]
+  },
+  {
+    "text": "It is your road, and yours alone. Others may walk it with you, but no one can walk it for you",
+    "author": "Jalaluddin Rumi",
+    "tags": [
+      "individuality",
+      "journey"
+    ]
+  },
+  {
+    "text": "Life can only be understood backwards, but it must be lived forwards",
+    "author": "Soren Kierkegaard",
+    "tags": [
+      "life",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "The most common for of despair is not being who you are",
+    "author": "Soren Kierkegaard",
+    "tags": [
+      "authenticity",
+      "despair"
+    ]
+  },
+  {
+    "text": "Knowledge is a wealth that cannot be stolen",
+    "author": "Soren Kierkegaard",
+    "tags": [
+      "knowledge",
+      "wealth"
+    ]
+  },
+  {
+    "text": "Many of us pursue pleasure with such breathless haste that we hurry past it",
+    "author": "Soren Kierkegaard",
+    "tags": [
+      "pleasure",
+      "presence"
+    ]
+  },
+  {
+    "text": "On the secretly blushing cheek is reflected the glow of the heart",
+    "author": "Soren Kierkegaard",
+    "tags": [
+      "love",
+      "emotion"
+    ]
+  },
+  {
+    "text": "It is very important in life to know when your cue comes",
+    "author": "Soren Kierkegaard",
+    "tags": [
+      "timing",
+      "life"
+    ]
+  },
+  {
+    "text": "You can't stop the waves, but you can learn to surf",
+    "author": "Jon Kabat-Zinn",
+    "tags": [
+      "mindfulness",
+      "acceptance"
+    ]
+  },
+  {
+    "text": "Do every act of your life as though it was the last act of your life",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "mindfulness",
+      "mortality"
+    ]
+  },
+  {
+    "text": "If you want to conquer the anxiety of life, live in the moment, live in the breath",
+    "author": "Amit Ray",
+    "tags": [
+      "mindfulness",
+      "anxiety"
+    ]
+  },
+  {
+    "text": "Feelings come and go like clouds in a windy sky. Conscious breathing is my anchor.",
+    "author": "Thich Nhat Hanh",
+    "tags": [
+      "mindfulness",
+      "emotion"
+    ]
+  },
+  {
+    "text": "One does not become enlightened by imagining figures of light, but by making the darkness conscious",
+    "author": "Carl Jung",
+    "tags": [
+      "mindfulness",
+      "consciousness"
+    ]
+  },
+  {
+    "text": "If man makes himself a worm he must not complain when he is trodden on",
+    "author": "Immanuel Kant",
+    "tags": [
+      "self-respect",
+      "responsibility"
+    ]
+  },
+  {
+    "text": "Experience without theory is blind, but theory without experience is mere intellectual play",
+    "author": "Immanuel Kant",
+    "tags": [
+      "knowledge",
+      "experience"
+    ]
+  },
+  {
+    "text": "An evil person cannot be happy, for being alone with himself, he remains alone with a villain",
+    "author": "Immanuel Kant",
+    "tags": [
+      "morality",
+      "happiness"
+    ]
+  },
+  {
+    "text": "Science is organized knowledge, wisdom is an organized life",
+    "author": "Immanuel Kant",
+    "tags": [
+      "wisdom",
+      "knowledge"
+    ]
+  },
+  {
+    "text": "We are not rich by what we possess, but by what we can do without",
+    "author": "Immanuel Kant",
+    "tags": [
+      "wealth",
+      "contentment"
+    ]
+  },
+  {
+    "text": "The reading of all good books is like conversation with the finest minds of past centuries",
+    "author": "Immanuel Kant",
+    "tags": [
+      "reading",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Rules for happiness: something to do, someone to love, something to hope for",
+    "author": "Immanuel Kant",
+    "tags": [
+      "happiness",
+      "life"
+    ]
+  },
+  {
+    "text": "Give a person everything that he desires, and at the same moment he will feel that this is not everything",
+    "author": "Immanuel Kant",
+    "tags": [
+      "desire",
+      "contentment"
+    ]
+  },
+  {
+    "text": "One looking into a puddle sees dirt in it, the other - stars reflected in it",
+    "author": "Immanuel Kant",
+    "tags": [
+      "perspective",
+      "optimism"
+    ]
+  },
+  {
+    "text": "A person can become a person only through education",
+    "author": "Immanuel Kant",
+    "tags": [
+      "education",
+      "growth"
+    ]
+  },
+  {
+    "text": "Whoever has given up excess has gotten rid of hardships",
+    "author": "Immanuel Kant",
+    "tags": [
+      "moderation",
+      "simplicity"
+    ]
+  },
+  {
+    "text": "The more habits, the less freedom",
+    "author": "Immanuel Kant",
+    "tags": [
+      "freedom",
+      "habit"
+    ]
+  },
+  {
+    "text": "A wise man can change his mind, a fool never",
+    "author": "Immanuel Kant",
+    "tags": [
+      "wisdom",
+      "openmindedness"
+    ]
+  },
+  {
+    "text": "The life of people devoted only to pleasure without a reason and without morality has no value",
+    "author": "Immanuel Kant",
+    "tags": [
+      "morality",
+      "meaning"
+    ]
+  },
+  {
+    "text": "What is beautiful is what you like regardless of the meaning",
+    "author": "Immanuel Kant",
+    "tags": [
+      "beauty",
+      "aesthetics"
+    ]
+  },
+  {
+    "text": "Thinking means talking to yourself",
+    "author": "Immanuel Kant",
+    "tags": [
+      "thinking",
+      "mind"
+    ]
+  },
+  {
+    "text": "Dare to think!",
+    "author": "Immanuel Kant",
+    "tags": [
+      "thinking",
+      "courage"
+    ]
+  },
+  {
+    "text": "The death of dogma is the birth of morality",
+    "author": "Immanuel Kant",
+    "tags": [
+      "morality",
+      "freedom"
+    ]
+  },
+  {
+    "text": "Pain is inevitable. Suffering is optional",
+    "author": "Haruki Murakami",
+    "tags": [
+      "suffering",
+      "resilience"
+    ]
+  },
+  {
+    "text": "Be fearless, be brave, be bold, love yourself.",
+    "author": "Haruki Murakami",
+    "tags": [
+      "courage",
+      "self-love"
+    ]
+  },
+  {
+    "text": "If you only read the books everyone else is reading, you can only think what everyone else is thinking",
+    "author": "Haruki Murakami",
+    "tags": [
+      "reading",
+      "individuality"
+    ]
+  },
+  {
+    "text": "The literal meaning of life is whatever you're doing that prevents you from killing yourself",
+    "author": "Albert Camus",
+    "tags": [
+      "meaning",
+      "life"
+    ]
+  },
+  {
+    "text": "we all live in two quite distinct worlds. There's a world that exists whether or not you exist, a world that came into being before you did, and will be there when you've gone. A world of other people, of objects, events, of phenomena. But there's a world that exists only because you exist. A world that came into being when you did, and will end or change when you end or change according o your beliefs in those areas. A world of your consciousness, a world that is you. That place you know properly (if you do know it properly) but other people cannot know it properly. It's the world in which it was once \"there's only one set of footprints\", the world of your private being. And you see the outer world, that we all share, through this inner world. - Anais Nin put it beautifully: \"I do not see the world as it is, I see it as I am.\" - we frame it in our own perceptions, and attitudes and belief systems, and it's why we often do live in very different worlds, we see the same world very differently.",
+    "author": "Sir Ken Robinson",
+    "tags": [
+      "perception",
+      "consciousness"
+    ]
+  },
+  {
+    "text": "Real opportunities that come to you are few . . . When you find one my dear grandchildren and you can clearly recognize it, seize it boldly and don't do it small.\" - Munger rephrased this philosophy as follows: \"Assume that your really major opportunities in life are going to be few. When you get a lollapalooza, for God's sake don't hang back like a timid little rabbit, there aren't that many of the really big good ones.",
+    "author": "Charlie Munger",
+    "tags": [
+      "opportunity",
+      "boldness"
+    ]
+  },
+  {
+    "text": "I would rather be ashes than dust! I would rather that my spark should burn out in a brilliant blaze than it should be stifled by dry-rot. I would rather be a superb meteor, every atom of me in magnificent glow, than a sleepy and permanent planet. The function of man is to live, not to exist. I shall not waste my days trying to prolong them. I shall use my time.",
+    "author": "Jack London",
+    "tags": [
+      "life",
+      "purpose"
+    ]
+  },
+  {
+    "text": "All truly great thoughts are conceived by walking.",
+    "author": "Friedrich Nietzsche",
+    "tags": [
+      "thinking",
+      "creativity"
+    ]
+  },
+  {
+    "text": "Without music, life would be a mistake",
+    "author": "Friedrich Nietzsche",
+    "tags": [
+      "music",
+      "life"
+    ]
+  },
+  {
+    "text": "That which does not kill us, makes us stronger",
+    "author": "Friedrich Nietzsche",
+    "tags": [
+      "resilience",
+      "adversity"
+    ]
+  },
+  {
+    "text": "Happiness is only real when shared",
+    "author": "Christopher McCandless",
+    "tags": [
+      "happiness",
+      "connection"
+    ]
+  },
+  {
+    "text": "We don't see things as they are; we see them as we are.",
+    "author": "Anaïs Nin",
+    "tags": [
+      "perception",
+      "self"
+    ]
+  },
+  {
+    "text": "You are free to do what you want, but you are not free to want what you want",
+    "author": "Arthur Schopenhauer",
+    "tags": [
+      "freedom",
+      "will"
+    ]
+  },
+  {
+    "text": "We cannot change anything in ourselves unless we accept it",
+    "author": "Carl Jung",
+    "tags": [
+      "acceptance",
+      "change"
+    ]
+  },
+  {
+    "text": ". . .is to make an important, time-limited commitment in the form of a secret personal experiment. The experiment is to act \"as if\" he were this other character for a few weeks. Kelly stresses that once the client agrees to the experiment, it is important that it begin immediately . . . Importantly, the client does not inform anyone about the experiment. Clients' desires to share the secret with their friends or spouses are natural expressions of their anxiety or confusion in a novel situation. However, Kelly argues that the enactment would become simply an exercise in acting if others were aware of its temporary and pretend nature. When the client receives feedback that he seems to be acting differently or strangely, that is construed to mean that he is successful in his enactment.",
+    "author": "Michael Mahoney",
+    "tags": [
+      "psychology",
+      "change"
+    ]
+  },
+  {
+    "text": "Knowing is not enough; we must apply. Willing is not enough; we must do.",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "action",
+      "knowledge"
+    ]
+  },
+  {
+    "text": "Without haste, but without rest",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "perseverance",
+      "patience"
+    ]
+  },
+  {
+    "text": "Everyone holds his fortune in his own hands, like a sculptor the raw material he will fashion into a figure. But it's the same with that type of artistic activity as with all others: We are merely born with the capability to do it. The skill to mold the material into what we want must be learned and attentively cultivated.",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "self-mastery",
+      "growth"
+    ]
+  },
+  {
+    "text": "You can easily judge the character of a man, by how he treats those who can do nothing for him",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "character",
+      "integrity"
+    ]
+  },
+  {
+    "text": "Many people take no care with their money, until they come nearly to the end of it, and others do just the same with their time",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "time",
+      "money"
+    ]
+  },
+  {
+    "text": "Nothing is worth more than this day",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "time",
+      "presence"
+    ]
+  },
+  {
+    "text": "Of all the thieves, idiots are the most harmful: they steal from us our time and mood",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "time",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "What you get by achieving your goals is not as important as what you become by achieving your goals",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "goals",
+      "growth"
+    ]
+  },
+  {
+    "text": "Remember to live",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "life",
+      "presence"
+    ]
+  },
+  {
+    "text": "Life is too short to drink bad wine",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "life",
+      "pleasure"
+    ]
+  },
+  {
+    "text": "What is not started today, is never finished tomorrow",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "action",
+      "procrastination"
+    ]
+  },
+  {
+    "text": "Doubt can only be removed by action",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "action",
+      "doubt"
+    ]
+  },
+  {
+    "text": "Those who stopped loving and making mistakes have buried themselves alive",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "love",
+      "life"
+    ]
+  },
+  {
+    "text": "The most ridiculous desire, is the desire to please everybody",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "authenticity",
+      "approval"
+    ]
+  },
+  {
+    "text": "Too many parents make life hard for their children by trying, too zealously, to make it easy for them",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "parenting",
+      "growth"
+    ]
+  },
+  {
+    "text": "What is uttered from the heart alone, will win the heart of others to your onw",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "sincerity",
+      "connection"
+    ]
+  },
+  {
+    "text": "Inspiration is not a herring, which can be pickled for many years",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "inspiration",
+      "action"
+    ]
+  },
+  {
+    "text": "We all live upon the past, and through the past we are destroyed",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "past",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "He is happiest, be he king or peasant, who finds peace in his home",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "happiness",
+      "home"
+    ]
+  },
+  {
+    "text": "There is no past we can bring back by longing for it. There is only eternal now that builds and creates out of the past something new and better",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "presence",
+      "past"
+    ]
+  },
+  {
+    "text": "For a man to achieve all that is demanded of him, he must regard himself as greater than he is",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "self-belief",
+      "achievement"
+    ]
+  },
+  {
+    "text": "He who moves not forward, goes backwards",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "progress",
+      "growth"
+    ]
+  },
+  {
+    "text": "To be pleased with ones limits is a wretched state",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "ambition",
+      "growth"
+    ]
+  },
+  {
+    "text": "One has always time enough, if one will apply it well",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "time",
+      "discipline"
+    ]
+  },
+  {
+    "text": "We know accurately only when we know little, with knowledge doubt increases",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "knowledge",
+      "humility"
+    ]
+  },
+  {
+    "text": "Our friends show us what we can do; our enemies teach us what we must do",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "friendship",
+      "adversity"
+    ]
+  },
+  {
+    "text": "Do not give in too much to feelings. An overly sensitive heart is an unhappy possession on this earth",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "emotion",
+      "resilience"
+    ]
+  },
+  {
+    "text": "Go to foreign countries, and you will get to know the good things one possess at home",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "travel",
+      "gratitude"
+    ]
+  },
+  {
+    "text": "Character is formed in the stormy billows of the world",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "character",
+      "adversity"
+    ]
+  },
+  {
+    "text": "The greatest thing in this world is not so much where we stand as is what direction we are moving",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "progress",
+      "direction"
+    ]
+  },
+  {
+    "text": "Everything is hard, before it is easy",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "perseverance",
+      "mastery"
+    ]
+  },
+  {
+    "text": "The greatest evil that can befall man is that he should come to think ill of himself",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "self-worth",
+      "mind"
+    ]
+  },
+  {
+    "text": "all the greats so far are 1000% the same, they take action and think about the consequences later",
+    "author": "Daniel Pena",
+    "tags": [
+      "action",
+      "success"
+    ]
+  },
+  {
+    "text": "...thick skin is a gift from God",
+    "author": "Daniel Pena",
+    "tags": [
+      "resilience",
+      "toughness"
+    ]
+  },
+  {
+    "text": "it's easier to be a cunt, it's easier not to make a scene, it's easier not to speak up, it's easier to keep your head down...",
+    "author": "Daniel Pena",
+    "tags": [
+      "courage",
+      "action"
+    ]
+  },
+  {
+    "text": "It's better to trust your gut and get burned sometimes, than to always second-guess yourself",
+    "author": "Magnus Carlsen",
+    "tags": [
+      "intuition",
+      "confidence"
+    ]
+  },
+  {
+    "text": "Confidence - a feeling of self-assurance arising from one's appreciation of one's own abilities or qualities",
+    "author": "Magnus Carlsen",
+    "tags": [
+      "confidence",
+      "self"
+    ]
+  },
+  {
+    "text": "often in chess when you calculate a line.. Sometimes you miss something but it turns out later down the road that that was not important, that your intuition told you to make a quick, confident decision was actually right after all",
+    "author": "Magnus Carlsen",
+    "tags": [
+      "intuition",
+      "decision"
+    ]
+  },
+  {
+    "text": "\"Polemos pater panton\" - war is the father of all",
+    "author": "Heraclitus",
+    "tags": [
+      "war",
+      "philosophy"
+    ]
+  },
+  {
+    "text": "Those who approach life like a child playing a game, moving and pushing pieces, possess the power of kings.",
+    "author": "Heraclitus",
+    "tags": [
+      "playfulness",
+      "life"
+    ]
+  },
+  {
+    "text": "The traveler was active; he went strenuously in search of people, of adventure, of experience. The tourist is passive; he expects interesting things to happen to him. He goes 'sight-seeing.'",
+    "author": "Daniel Boorstein",
+    "tags": [
+      "travel",
+      "action"
+    ]
+  },
+  {
+    "text": "Knowing is not enough, we must apply. Willing is not enough, we must do.",
+    "author": "Bruce Lee",
+    "tags": [
+      "action",
+      "knowledge"
+    ]
+  },
+  {
+    "text": "If you spend too much time thinking about a thing, you'll never get it done.",
+    "author": "Bruce Lee",
+    "tags": [
+      "action",
+      "overthinking"
+    ]
+  },
+  {
+    "text": "Having no limitation as limitation",
+    "author": "Bruce Lee",
+    "tags": [
+      "freedom",
+      "philosophy"
+    ]
+  },
+  {
+    "text": "If you love life, don't waste time, for time is what life is made up of.",
+    "author": "Bruce Lee",
+    "tags": [
+      "time",
+      "life"
+    ]
+  },
+  {
+    "text": "The key to immortality is first living a life worth remembering.",
+    "author": "Bruce Lee",
+    "tags": [
+      "legacy",
+      "life"
+    ]
+  },
+  {
+    "text": "Mistakes are always forgivable, if one has the courage to admit them.",
+    "author": "Bruce Lee",
+    "tags": [
+      "mistakes",
+      "courage"
+    ]
+  },
+  {
+    "text": "You must be shapeless, formless, like water. When you pour water in a cup, it becomes the cup. When you pour water in a bottle, it becomes the bottle. When you pour water in a teapot, it becomes the teapot. Water can drip and it can crash. Become like water my friend.",
+    "author": "Bruce Lee",
+    "tags": [
+      "adaptability",
+      "philosophy"
+    ]
+  },
+  {
+    "text": "What would this look like if it were easy?",
+    "author": "Tim Ferris",
+    "tags": [
+      "simplicity",
+      "productivity"
+    ]
+  },
+  {
+    "text": "When starting a business - have a guaranteed audience of one (yourself) - scratch your own itch",
+    "author": "Tim Ferris",
+    "tags": [
+      "business",
+      "entrepreneurship"
+    ]
+  },
+  {
+    "text": "Fire and Ice - fire in the belly, fight to win every point, ice in the veins meaning so focused, calm and composed",
+    "author": "Roger Federer",
+    "tags": [
+      "focus",
+      "competition"
+    ]
+  },
+  {
+    "text": "Do no not judge each day by the harvest you reap, but by the seeds you sow.",
+    "author": "Robert Louis Stevenson",
+    "tags": [
+      "perseverance",
+      "effort"
+    ]
+  },
+  {
+    "text": "Your actions speak so loudly, I can not hear what you are saying.",
+    "author": "Ralph Waldo Emerson",
+    "tags": [
+      "action",
+      "integrity"
+    ]
+  },
+  {
+    "text": "Do the thing you fear, and the death of fear is certain",
+    "author": "Ralph Waldo Emerson",
+    "tags": [
+      "fear",
+      "courage"
+    ]
+  },
+  {
+    "text": "Be afraid of not trying something, not of failing at it",
+    "author": "Sara Blakely",
+    "tags": [
+      "fear",
+      "failure"
+    ]
+  },
+  {
+    "text": "Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom.",
+    "author": "Viktor Frankl",
+    "tags": [
+      "freedom",
+      "choice",
+      "growth"
+    ]
+  },
+  {
+    "text": "Live as if you were living a second time, and as though you had acted wrongly the first time.",
+    "author": "Viktor Frankl",
+    "tags": [
+      "life",
+      "reflection"
+    ]
+  },
+  {
+    "text": "Everything can be taken from a man but one thing: the last of the human freedoms—to choose one's attitude in any given set of circumstances, to choose one's own way.",
+    "author": "Viktor Frankl",
+    "tags": [
+      "freedom",
+      "attitude"
+    ]
+  },
+  {
+    "text": "Action may not always bring happiness; but there is no happiness without action.",
+    "author": "Benjamin Disraeli",
+    "tags": [
+      "action",
+      "happiness"
+    ]
+  },
+  {
+    "text": "The secret of success is constancy to purpose.",
+    "author": "Benjamin Disraeli",
+    "tags": [
+      "success",
+      "purpose"
+    ]
+  },
+  {
+    "text": "It's incredibly easy to get caught up in an activity trap, in the busy-ness of life, to work harder and harder at climbing the ladder of success only to discover it's leaning against the wrong wall.",
+    "author": "Stephen R. Covey",
+    "tags": [
+      "success",
+      "purpose",
+      "priorities"
+    ]
+  },
+  {
+    "text": "Never wrestle with a pig. You just get dirty and the pig enjoys it.",
+    "author": "American proverb",
+    "tags": [
+      "wisdom",
+      "conflict"
+    ]
+  },
+  {
+    "text": "Do nothing which is of no use.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "discipline",
+      "focus"
+    ]
+  },
+  {
+    "text": "Anyone can give up, it's the easiest thing in the world to do. But to hold it together when everyone else would understand if you fell apart, that's true strength.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "strength",
+      "perseverance"
+    ]
+  },
+  {
+    "text": "You must not be influenced by the opponent.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "focus",
+      "discipline"
+    ]
+  },
+  {
+    "text": "The approach to combat and everyday life should be the same.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "discipline",
+      "life"
+    ]
+  },
+  {
+    "text": "To win any battle, you must fight as if you are already dead.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "courage",
+      "battle"
+    ]
+  },
+  {
+    "text": "No fear, no hesitation, no surprise, no doubt.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "fear",
+      "focus"
+    ]
+  },
+  {
+    "text": "The Way is in training.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "discipline",
+      "practice"
+    ]
+  },
+  {
+    "text": "With your spirit open and unconstricted, look at things from a high point of view.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "perspective",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "A man cannot understand the art he is studying if he only looks for the end result without taking the time to delve deeply into the reasoning of the study.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "mastery",
+      "learning"
+    ]
+  },
+  {
+    "text": "You can only fight the way you practice.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "practice",
+      "discipline"
+    ]
+  },
+  {
+    "text": "One thousand days of lessons for discipline; ten thousand days of lessons for mastery.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "discipline",
+      "mastery"
+    ]
+  },
+  {
+    "text": "I choose to live by choice, not by chance.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "choice",
+      "life"
+    ]
+  },
+  {
+    "text": "Determine that today you will overcome yourself of the day before, tomorrow you will win over those of lesser skill, and later you will win over those of greater skill.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "self-improvement",
+      "discipline"
+    ]
+  },
+  {
+    "text": "Truth is not what you want it to be; it is what it is, and you must bend to its power or live a lie.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "truth",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Generally speaking, the Way of the warrior is resolute acceptance of death.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "death",
+      "courage"
+    ]
+  },
+  {
+    "text": "If you wish to control others you must first control yourself.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "self-mastery",
+      "leadership"
+    ]
+  },
+  {
+    "text": "Control your anger. If you hold anger toward others, they have control over you. Your opponent can dominate and defeat you if you allow him to get you irritated.",
+    "author": "Miyamoto Musashi",
+    "tags": [
+      "anger",
+      "self-mastery"
+    ]
+  },
+  {
+    "text": "Any sufficiently advanced technology is indistinguishable from magic.",
+    "author": "Arthur C. Clarke",
+    "tags": [
+      "technology",
+      "wonder"
+    ]
+  },
+  {
+    "text": "Your most unhappy customers are your greatest source of learning.",
+    "author": "Bill Gates",
+    "tags": [
+      "business",
+      "learning"
+    ]
+  },
+  {
+    "text": "The thing you do obsessively between 13 and 18, that's the thing you have the most chance of being world class at.",
+    "author": "Bill Gates",
+    "tags": [
+      "mastery",
+      "passion"
+    ]
+  },
+  {
+    "text": "Listen, smile, agree, and then do whatever the fuck you were going to do anyway",
+    "author": "Robert Downy Junior",
+    "tags": [
+      "independence",
+      "attitude"
+    ]
+  },
+  {
+    "text": "What if you can't find motivation to workout and get in shape? It's not about finding motivation! You are measured by the amount of responsibility and accountability you have for yourself. You and only you are responsible for what you do and what you don't do! Don't always count on being motivated to accomplish the mission. I have crossed many finish lines with zero motivation. The finish line I'm talking about isn't a race, it's life. We owe it to ourselves to find more!!! You need will power! We live in a world where a lot of people need goals, motivation and a lot of other words to get started. It's just a big excuse to not get started. I haven't been motivated in years but I still do all the same workouts and studying I used to. Why? Because I have a responsibility to myself to be my very best, and when that time comes when I find that motivation/drive, I will be ready. This shit is a lifestyle! It's not always fun. Matter of fact...it's hardly ever fun! It's like cleaning your house or studying, it just needs to get done! Nike said \"just do it.\" Well, I say, \"Just suck it up.\" Everything comes to an end! Don't let your body or mind do exactly what it wants to do! Take control!",
+    "author": "David Goggins",
+    "tags": [
+      "motivation",
+      "discipline",
+      "accountability"
+    ]
+  },
+  {
+    "text": "Everybody has a plan until they get punched in the face",
+    "author": "Mike Tyson",
+    "tags": [
+      "adversity",
+      "resilience"
+    ]
+  },
+  {
+    "text": "It's not the things that happen that upset you, it is your judgement of them",
+    "author": "Epictetus",
+    "tags": [
+      "stoicism",
+      "perspective"
+    ]
+  },
+  {
+    "text": "Is freedom anything other than the right to live as we wish? Nothing else.",
+    "author": "Epictetus",
+    "tags": [
+      "freedom",
+      "stoicism"
+    ]
+  },
+  {
+    "text": "Life is what happens to you while you are busy making other plans.",
+    "author": "John Lennon",
+    "tags": [
+      "life",
+      "presence"
+    ]
+  },
+  {
+    "text": "A mind that is stretched by a new experience can never go back to its old dimensions.",
+    "author": "Oliver Wendell Holmes, Jr.",
+    "tags": [
+      "growth",
+      "experience"
+    ]
+  },
+  {
+    "text": "What good will they do, these tears, these cries? Will you hurt your enemies with tears?",
+    "author": "Euripides",
+    "tags": [
+      "resilience",
+      "adversity"
+    ]
+  },
+  {
+    "text": "We suffer more often in imagination than in reality",
+    "author": "Lucius Annaeus Seneca",
+    "tags": [
+      "stoicism",
+      "fear"
+    ]
+  },
+  {
+    "text": "Don't make your troubles worse by bemoaning them. Get off your ass and do something about it.",
+    "author": "Lucius Annaeus Seneca",
+    "tags": [
+      "action",
+      "resilience"
+    ]
+  },
+  {
+    "text": "It's ruinous for the soul to be anxious about the future and miserable in advance of misery, engulfed by anxiety that the things it desires might remain its own until the very end. For such a soul will never be at rest — by longing for things to come it will lose the ability to enjoy present things.",
+    "author": "Lucius Annaeus Seneca",
+    "tags": [
+      "stoicism",
+      "anxiety",
+      "presence"
+    ]
+  },
+  {
+    "text": "I will keep constant watch over myself and — most usefully — will put each day up for review. For this is what makes us evil — that none of us looks back upon our own lives. We reflect upon only that which we are about to do. And yet our plans for the future descend from the past.",
+    "author": "Lucius Annaeus Seneca",
+    "tags": [
+      "stoicism",
+      "reflection"
+    ]
+  },
+  {
+    "text": "When the light has been removed and my wife has fallen silent, aware of this habit that's now mine, I examine my entire day and go back over what I've done and said, hiding nothing from myself, passing nothing by. For why should I fear any consequence from my mistakes, when I'm able to say, \"See that you don't do it again, but now I forgive you.\"",
+    "author": "Lucius Annaeus Seneca",
+    "tags": [
+      "stoicism",
+      "reflection",
+      "self-improvement"
+    ]
+  },
+  {
+    "text": "If one does not know to which port one is sailing, no wind is favorable.",
+    "author": "Lucius Annaeus Seneca",
+    "tags": [
+      "purpose",
+      "direction"
+    ]
+  },
+  {
+    "text": "You live as if you were destined to live forever, no thought of your frailty ever enters your head, of how much time has already gone by you take no heed. You squander time as if you drew from a full and abundant supply, though all the while that day which you bestow on some person or thing is perhaps your last.",
+    "author": "Lucius Annaeus Seneca",
+    "tags": [
+      "time",
+      "mortality"
+    ]
+  },
+  {
+    "text": "Begin at once to live, and count each separate day as a separate life.",
+    "author": "Lucius Annaeus Seneca",
+    "tags": [
+      "life",
+      "presence"
+    ]
+  },
+  {
+    "text": "You can tell the size of a man by the size of the thing that makes him mad",
+    "author": "Adlai Stevenson",
+    "tags": [
+      "character",
+      "temperament"
+    ]
+  },
+  {
+    "text": "Do not correct a fool, for he will hate you. Correct a wise man and he will appreciate you",
+    "author": "Bible",
+    "tags": [
+      "wisdom",
+      "humility"
+    ]
+  },
+  {
+    "text": "The resolution refers to \"occupied Palestinian territory including East Jerusalem.\" There is no such thing as \"Palestinian territory\" and never was. First of all, the term \"Palestinian\" is itself bogus. Palestinian identity was an artificial creation invented solely to destroy the Jewish entitlement to their own homeland. \"Palestine\" was invented by the Romans to rename Judea, in order to eradicate Jewish entitlement to land the Romans had conquered and to expunge all trace of its Jewish identity. Arabs who lived in pre-Israel Palestine were either nomadic or considered themselves Syria or pan-Arab. As many Arabs have acknowledged over the years, there is no such thing as a \"Palestinian\". Second, the land in dispute never belonged to the \"Palestinians\" nor indeed to any Arab state. Jordan illegally occupied Judea and Samaria, which it renamed the West Bank, between 1949 and 1967. That territory is in effect no-man's land. And given the terms of the British mandate which have never been overturned, it is only Israel which has any legal, moral or historical right to settle its people there.",
+    "author": "Melanie Phillips",
+    "tags": [
+      "politics",
+      "history"
+    ]
+  },
+  {
+    "text": "Change your thoughts and you change your world",
+    "author": "Norman Vincent Peale",
+    "tags": [
+      "mindset",
+      "positivity"
+    ]
+  },
+  {
+    "text": "You are the machine, and you can control the machine - people ask me: 'how can I be tougher?' -> be tougher. 'how can I wake up earlier in the morning?' -> the answer is, wake up earlier in the morning. 'how can I work out consistently every single day?' -> work out consistently every single day. ...",
+    "author": "Jocko Willink",
+    "tags": [
+      "discipline",
+      "self-mastery"
+    ]
+  },
+  {
+    "text": "Smile, though your heart is aching. Smile, even though it's breaking. When there are clouds in the sky, you'll get by if you smile through your pain and sorrow. Smile and maybe tomorrow, you'll see the sun come shining through for you.",
+    "author": "Charlie Chaplin",
+    "tags": [
+      "positivity",
+      "resilience"
+    ]
+  },
+  {
+    "text": "To truly laugh, you must be able to take your pain, and play with it!",
+    "author": "Charlie Chaplin",
+    "tags": [
+      "humor",
+      "resilience"
+    ]
+  },
+  {
+    "text": "The experience taught me something about the behavior of human beings in adversity: the untrustworthiness and failure of a minority at one end of the human spectrum; the rather passive response to leadership on the part of a majority in the middle; the extraordinary faithfulness, courage, and general excellence of a few. I came away with a new admiration for one portion of mankind, but a portion which, as I now recognized, would never be more than a minority. For the majority at the center, I felt a mixture of sympathy and solicitude. For the remainder there was only horror and repulsion.",
+    "author": "George F. Kennan",
+    "tags": [
+      "human nature",
+      "leadership",
+      "character"
+    ]
+  },
+  {
+    "text": "Pursue one great decisive aim with force and determination.",
+    "author": "Carl von Clausewitz",
+    "tags": [
+      "focus",
+      "determination"
+    ]
+  },
+  {
+    "text": "If the leader is filled with high ambition and if he pursues his aims with audacity and strength of will, he will reach them in spite of all obstacles.",
+    "author": "Carl von Clausewitz",
+    "tags": [
+      "leadership",
+      "ambition"
+    ]
+  },
+  {
+    "text": "Everything in war is very simple. But the simplest thing is difficult.",
+    "author": "Carl von Clausewitz",
+    "tags": [
+      "war",
+      "difficulty"
+    ]
+  },
+  {
+    "text": "Although our intellect always longs for clarity and certainty, our nature often finds uncertainty fascinating.",
+    "author": "Carl von Clausewitz",
+    "tags": [
+      "uncertainty",
+      "human nature"
+    ]
+  },
+  {
+    "text": "To secure peace is to prepare for war.",
+    "author": "Carl von Clausewitz",
+    "tags": [
+      "war",
+      "peace",
+      "strategy"
+    ]
+  },
+  {
+    "text": "Principles and rules are intended to provide a thinking man with a frame of reference.",
+    "author": "Carl von Clausewitz",
+    "tags": [
+      "strategy",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "It is even better to act quickly and err than to hesitate until the time of action is past.",
+    "author": "Carl von Clausewitz",
+    "tags": [
+      "action",
+      "decisiveness"
+    ]
+  },
+  {
+    "text": "The enemy of a good plan is the dream of a perfect plan.",
+    "author": "Carl von Clausewitz",
+    "tags": [
+      "planning",
+      "action"
+    ]
+  },
+  {
+    "text": "No one starts a war--or rather, no one in his sense ought to do so--without first being clear in his mind what he intends to achieve by the war and how he intends to conduct it.",
+    "author": "Carl von Clausewitz",
+    "tags": [
+      "war",
+      "strategy",
+      "clarity"
+    ]
+  },
+  {
+    "text": "There is nothing impossible to him who will try.",
+    "author": "Alexander the Great",
+    "tags": [
+      "perseverance",
+      "ambition"
+    ]
+  },
+  {
+    "text": "I am not afraid of an army of lions led by a sheep; I am afraid of an army of sheep led by a lion.",
+    "author": "Alexander the Great",
+    "tags": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "text": "Remember, upon the conduct of each depends the fate of all.",
+    "author": "Alexander the Great",
+    "tags": [
+      "responsibility",
+      "unity"
+    ]
+  },
+  {
+    "text": "I do not steal victory",
+    "author": "Alexander the Great",
+    "tags": [
+      "honor",
+      "victory"
+    ]
+  },
+  {
+    "text": "The impediment to action advances action, what stands in the way becomes the way",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "adversity",
+      "action",
+      "stoicism"
+    ]
+  },
+  {
+    "text": "If it is not right, do not do it; if it is not true, do not say it.",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "integrity",
+      "virtue"
+    ]
+  },
+  {
+    "text": "Marcus Aurelius—someone who, as Emperor, had his share of critics and frustrating subordinates—said, \"Tranquility...comes when you stop caring what they say. Or think, or do. Only what you do.\" How they feel isn't in your control. What they do (or don't do) isn't in your control. What they think of you isn't. You know what is? What you do. The actions you take. The actions you take in response to the actions they take (or don't take). Focus on the part that's in your control, stress only about what you do, and you'll find the tranquility",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "control",
+      "tranquility",
+      "stoicism"
+    ]
+  },
+  {
+    "text": "Get busy with life's purpose, toss aside empty hopes, get active in your own rescue—if you care for yourself at all—and do it while you can.",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "purpose",
+      "action"
+    ]
+  },
+  {
+    "text": "When you wake up in the morning, tell yourself: the people I deal with today will be meddling, ungrateful, arrogant, dishonest, jealous and surly. They are like this because they can't tell good from evil. But I have seen the beauty of good, and the ugliness of evil, and have recognized that the wrongdoer has a nature related to my own - not of the same blood and birth, but the same mind, and possessing a share of the divine. And so none of them can hurt me. No one can implicate me in ugliness. Nor can I feel angry at my relative, or hate him. We were born to work together like feet, hands and eyes, like the two rows of teeth, upper and lower. To obstruct each other is unnatural. To feel anger at someone, to turn your back on him: these are unnatural.",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "patience",
+      "humanity",
+      "stoicism"
+    ]
+  },
+  {
+    "text": "It never ceases to amaze me: we all love oursleves more than other people, but care more about their opinion than our own",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "self",
+      "opinion"
+    ]
+  },
+  {
+    "text": "You have power over your mind - not outside events. Realize this, and you will find strength",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "control",
+      "mind",
+      "strength"
+    ]
+  },
+  {
+    "text": "When you arise in the morning, think of what a privilege it is to be alive, to think, to enjoy, to love..",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "gratitude",
+      "life"
+    ]
+  },
+  {
+    "text": "The happiness of your life depends upon the quality of your thoughts",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "happiness",
+      "thoughts"
+    ]
+  },
+  {
+    "text": "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "perspective",
+      "truth"
+    ]
+  },
+  {
+    "text": "Waste no more time arguing about what a good man should be. Be one.",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "virtue",
+      "action"
+    ]
+  },
+  {
+    "text": "If you are distressed by anything external, the pain is not due to the thing itself but to your estimate of it and this you have the power to revoke at any moment",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "perception",
+      "control",
+      "stoicism"
+    ]
+  },
+  {
+    "text": "The best revenge is to be unlike him who performed the injury",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "revenge",
+      "virtue"
+    ]
+  },
+  {
+    "text": "It is not death that a man should fear, but he should fear never beginning to live",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "death",
+      "life"
+    ]
+  },
+  {
+    "text": "Our life is what our thoughts make it",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "thoughts",
+      "life"
+    ]
+  },
+  {
+    "text": "Whenever you are about to find fault with someone, ask yourself the following question: what fault of mine most nearly resembles the one I am about to criticize",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "self-reflection",
+      "judgement"
+    ]
+  },
+  {
+    "text": "If it is not right - do not do it, if it is not true - do not say it",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "integrity",
+      "virtue"
+    ]
+  },
+  {
+    "text": "Very little is needed to make a happy life, it is all within yourself in you way of thinking",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "happiness",
+      "mind"
+    ]
+  },
+  {
+    "text": "Reject you sense of injury and the injury itself disappears",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "perception",
+      "resilience"
+    ]
+  },
+  {
+    "text": "The first rule is to keep an untroubled spirit. The second is to look things in the face and know them for what they are",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "tranquility",
+      "truth"
+    ]
+  },
+  {
+    "text": "How much more grievous are the consequences of anger than the causes of it",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "anger",
+      "self-control"
+    ]
+  },
+  {
+    "text": "Do not act as if you were going to live ten thousand years. Death hangs over you. While you live, while it is in your power, be good",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "mortality",
+      "virtue"
+    ]
+  },
+  {
+    "text": "Here is a rule to remember in the future, when anything tempts you to feel bitter: not \"this is misfortune\" but \"to bear this worthily is good fortune\"",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "adversity",
+      "perspective"
+    ]
+  },
+  {
+    "text": "How much he gains who does not look to see what his neighbor says or does or thinks, but only at what he does himself, to make it just and holy",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "focus",
+      "virtue"
+    ]
+  },
+  {
+    "text": "Do every act of your life as though it were the very last act of your life",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "mortality",
+      "presence"
+    ]
+  },
+  {
+    "text": "What we do now - echoes in eternity",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "legacy",
+      "action"
+    ]
+  },
+  {
+    "text": "The impediment to action advances action. What stands in the way becomes the way",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "adversity",
+      "action",
+      "stoicism"
+    ]
+  },
+  {
+    "text": "Receive without conceit, release without struggle",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "detachment",
+      "equanimity"
+    ]
+  },
+  {
+    "text": "Your days are numbered. Use the, to throw open the windows of your soul to the sun. if you do not, the sun will soon set, and you with it",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "mortality",
+      "time"
+    ]
+  },
+  {
+    "text": "It is in your power to withdraw yourself whenever you desire. Perfect tranquility within consists in the good ordering of the mind, the realm of your own",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "tranquility",
+      "mind"
+    ]
+  },
+  {
+    "text": "If any man despises me, that is his problem. My only concern is not doing or saying anything deserving of contempt",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "opinion",
+      "integrity"
+    ]
+  },
+  {
+    "text": "A person's worth is measured by the worth of what he values",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "values",
+      "character"
+    ]
+  },
+  {
+    "text": "Whoever does wrong, wrongs himself, whoever does injustice, does it to himself, making himself evil",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "justice",
+      "virtue"
+    ]
+  },
+  {
+    "text": "The memory of everything is very soon overwhelmed in time",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "time",
+      "impermanence"
+    ]
+  },
+  {
+    "text": "Nowhere can man find a quieter or more untroubled retreat than in his own soul",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "tranquility",
+      "solitude"
+    ]
+  },
+  {
+    "text": "Confine yourself to the present",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "presence",
+      "mindfulness"
+    ]
+  },
+  {
+    "text": "Death smiles at us all; all we can do is smile back",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "death",
+      "courage"
+    ]
+  },
+  {
+    "text": "Choose not to feel harmed - and you won't feel harmed. Don't feel harmed - and you haven't been.",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "perception",
+      "resilience"
+    ]
+  },
+  {
+    "text": "Take full account of what excellencies you possess, and in gratitude remember how you would hanker after them, if you had them not",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "gratitude",
+      "contentment"
+    ]
+  },
+  {
+    "text": "A man must stand erect, not be kept erect by others",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "self-reliance",
+      "character"
+    ]
+  },
+  {
+    "text": "We live only now. Everything else is either passed or is unknown",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "presence",
+      "time"
+    ]
+  },
+  {
+    "text": "No man can escape his destiny, the next inquiry being how he may best live the time that he has to live",
+    "author": "Marcus Aurelius",
+    "tags": [
+      "destiny",
+      "life"
+    ]
+  },
+  {
+    "text": "Don't judge each day by the harvest you reap but by the seeds you plant",
+    "author": "Robert Louis Stevenson",
+    "tags": [
+      "perseverance",
+      "effort"
+    ]
+  },
+  {
+    "text": "Life isn't about finding yourself. Life is about creating yourself",
+    "author": "George Bernard Shaw",
+    "tags": [
+      "self",
+      "growth"
+    ]
+  },
+  {
+    "text": "None can destroy iron, but it's own rust can - likewise, none can destroy a person, but his own mindset can",
+    "author": "Ratan Tata",
+    "tags": [
+      "mindset",
+      "self"
+    ]
+  },
+  {
+    "text": "5 seconds to do what you want - if you don't follow your impulse\\idea with action within 5 seconds, you will kill it!",
+    "author": "Mel Robbins",
+    "tags": [
+      "action",
+      "motivation"
+    ]
+  },
+  {
+    "text": "Getting what you want is simple, but not easy - FORCE yourself OUT of your head, PAST your feelings, OUTSIDE your comfort zone!",
+    "author": "Mel Robbins",
+    "tags": [
+      "action",
+      "discipline"
+    ]
+  },
+  {
+    "text": "\"Being healthy\", will not get your ass on a treadmill - \"loosing your manboobs so you could hook up with somebody\", now that's motivation!",
+    "author": "Mel Robbins",
+    "tags": [
+      "motivation",
+      "goals"
+    ]
+  },
+  {
+    "text": "You are never going to feel like it",
+    "author": "Mel Robbins",
+    "tags": [
+      "discipline",
+      "action"
+    ]
+  },
+  {
+    "text": "Activation energy - the force required to get you to change from what you're doing in autopilot to doing something new",
+    "author": "Mel Robbins",
+    "tags": [
+      "change",
+      "action"
+    ]
+  },
+  {
+    "text": "I learned this, at least, by my experiment: that if one advances confidently in the direction of his dreams, and endeavors to live the life which he has imagined, he will meet with a success unexpected in common hours.",
+    "author": "Henry David Thoreau",
+    "tags": [
+      "dreams",
+      "success"
+    ]
+  },
+  {
+    "text": "If it doesn't scare you, you're probably not dreaming big enough",
+    "author": "Tory Burch",
+    "tags": [
+      "ambition",
+      "courage"
+    ]
+  },
+  {
+    "text": "Even if you're not yet an entrepreneur, you can be entrepreneurial in everything you do. If you view each stop as an opportunity to learn something, there is always something you will take away from that experience.",
+    "author": "Tory Burch",
+    "tags": [
+      "entrepreneurship",
+      "learning"
+    ]
+  },
+  {
+    "text": "Love is a temporary madness, it erupts like volcanoes and then subsides. And when it subsides, you have to make a decision. You have to work out whether your roots have so entwined together that it is inconceivable that you should ever part. Because this is what love is. Love is not breathlessness, it is not excitement, it is not the promulgation of promises of eternal passion, it is not the desire to mate every second minute of the day, it is not lying awake at night imagining that he is kissing every cranny of your body. No, don't blush, I am telling you some truths. That is just being \"in love\", which any fool can do. Love itself is what is left over when being in love has burned away, and this is both an art and a fortunate accident.",
+    "author": "Louis de Bernières",
+    "tags": [
+      "love",
+      "relationships"
+    ]
+  },
+  {
+    "text": "You live only once, don't go sleepwalking all your life...don't settle, don't worry about making the most money - Look for the job that turns you on, find a passion",
+    "author": "Warren Buffett",
+    "tags": [
+      "passion",
+      "life"
+    ]
+  },
+  {
+    "text": "Be Fearful When Others Are Greedy and Greedy When Others Are Fearful",
+    "author": "Warren Buffett",
+    "tags": [
+      "investing",
+      "contrarian"
+    ]
+  },
+  {
+    "text": "The most important thing to do if you find yourself in a hole is to stop digging.",
+    "author": "Warren Buffett",
+    "tags": [
+      "wisdom",
+      "mistakes"
+    ]
+  },
+  {
+    "text": "Someone's sitting in the shade today because someone planted a tree a long time ago.",
+    "author": "Warren Buffett",
+    "tags": [
+      "foresight",
+      "patience"
+    ]
+  },
+  {
+    "text": "It takes 20 years to build a reputation and five minutes to ruin it. If you think about that you'll do things differently.",
+    "author": "Warren Buffett",
+    "tags": [
+      "reputation",
+      "integrity"
+    ]
+  },
+  {
+    "text": "Should you find yourself in a chronically leaking boat, energy devoted to changing vessels is likely to be more productive than energy devoted to patching leaks.",
+    "author": "Warren Buffett",
+    "tags": [
+      "strategy",
+      "decisions"
+    ]
+  },
+  {
+    "text": "You only have to do a very few things right in your life so long as you don't do too many things wrong.",
+    "author": "Warren Buffett",
+    "tags": [
+      "wisdom",
+      "success"
+    ]
+  },
+  {
+    "text": "Risk comes from not knowing what you're doing",
+    "author": "Warren Buffett",
+    "tags": [
+      "risk",
+      "knowledge"
+    ]
+  },
+  {
+    "text": "It's better to hang out with people better than you. Pick out associates whose behavior is better than yours and you'll drift in that direction.",
+    "author": "Warren Buffett",
+    "tags": [
+      "relationships",
+      "growth"
+    ]
+  },
+  {
+    "text": "There seems to be some perverse human characteristic that likes to make easy things difficult.",
+    "author": "Warren Buffett",
+    "tags": [
+      "simplicity",
+      "human-nature"
+    ]
+  },
+  {
+    "text": "Rule No. 1 : Never lose money. Rule No. 2 : Never forget Rule No. 1.",
+    "author": "Warren Buffett",
+    "tags": [
+      "investing",
+      "money"
+    ]
+  },
+  {
+    "text": "In the business world, the rearview mirror is always clearer than the windshield.",
+    "author": "Warren Buffett",
+    "tags": [
+      "business",
+      "foresight"
+    ]
+  },
+  {
+    "text": "I always knew I was going to be rich. I don't think I ever doubted it for a minute.",
+    "author": "Warren Buffett",
+    "tags": [
+      "confidence",
+      "success"
+    ]
+  },
+  {
+    "text": "When you combine ignorance and leverage, you get some pretty interesting results.",
+    "author": "Warren Buffett",
+    "tags": [
+      "investing",
+      "risk"
+    ]
+  },
+  {
+    "text": "You know ... you keep doing the same things and you keep getting the same result over and over again.",
+    "author": "Warren Buffett",
+    "tags": [
+      "change",
+      "habits"
+    ]
+  },
+  {
+    "text": "Never ask a barber if you need a haircut.",
+    "author": "Warren Buffett",
+    "tags": [
+      "wisdom",
+      "bias"
+    ]
+  },
+  {
+    "text": "Wall Street is the only place that people drive to in a Rolls Royce to take advice from people who ride the subway.",
+    "author": "Warren Buffett",
+    "tags": [
+      "investing",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Diversification is protection against ignorance. It makes little sense if you know what you are doing.",
+    "author": "Warren Buffett",
+    "tags": [
+      "investing",
+      "knowledge"
+    ]
+  },
+  {
+    "text": "People long forget the price they payed, but remember the experience… whether they were treated kindly or rudely.. Focus on delighting customers, making connections with customers and treating them right",
+    "author": "Warren Buffett",
+    "tags": [
+      "business",
+      "customers"
+    ]
+  },
+  {
+    "text": "What is the point of being alive if you don't at least try to do something remarkable?",
+    "author": "Mario Novac",
+    "tags": [
+      "ambition",
+      "life"
+    ]
+  },
+  {
+    "text": "Anything the mind can conceive and believe, it can achieve.",
+    "author": "Napoleon Hill",
+    "tags": [
+      "success",
+      "belief"
+    ]
+  },
+  {
+    "text": "When your desires are strong enough, you will appear to possess superhuman powers to achieve",
+    "author": "Napoleon Hill",
+    "tags": [
+      "desire",
+      "success"
+    ]
+  },
+  {
+    "text": "Do not wait - the time will never be 'just right'. Start where you stand, and work whatever tools you may have at your command and better tools will be found as you go along",
+    "author": "Napoleon Hill",
+    "tags": [
+      "action",
+      "starting"
+    ]
+  },
+  {
+    "text": "Set your mind on a definite goal and observe how quickly the world stands aside to let you pass",
+    "author": "Napoleon Hill",
+    "tags": [
+      "goals",
+      "focus"
+    ]
+  },
+  {
+    "text": "The way of success, is the way of continuous pursuit of knowledge",
+    "author": "Napoleon Hill",
+    "tags": [
+      "success",
+      "knowledge"
+    ]
+  },
+  {
+    "text": "You may be hurt if you love too much, but you will live in misery if you love too little",
+    "author": "Napoleon Hill",
+    "tags": [
+      "love",
+      "life"
+    ]
+  },
+  {
+    "text": "A quitter never wins, and a winner never quits",
+    "author": "Napoleon Hill",
+    "tags": [
+      "persistence",
+      "success"
+    ]
+  },
+  {
+    "text": "Our only limitations, are those we set up in our own minds",
+    "author": "Napoleon Hill",
+    "tags": [
+      "mindset",
+      "limitations"
+    ]
+  },
+  {
+    "text": "Happiness is found in doing, not merely possessing",
+    "author": "Napoleon Hill",
+    "tags": [
+      "happiness",
+      "action"
+    ]
+  },
+  {
+    "text": "When defeat comes, accept it as a signal that your plans are not sound, rebuild these plans and set sail once more toward your coveted goal",
+    "author": "Napoleon Hill",
+    "tags": [
+      "failure",
+      "persistence"
+    ]
+  },
+  {
+    "text": "A goal is a dream with a deadline",
+    "author": "Napoleon Hill",
+    "tags": [
+      "goals",
+      "dreams"
+    ]
+  },
+  {
+    "text": "If you do not conquer self, you will be conquered by self",
+    "author": "Napoleon Hill",
+    "tags": [
+      "discipline",
+      "self-mastery"
+    ]
+  },
+  {
+    "text": "Persistence is to the character of man, as carbon is to steel",
+    "author": "Napoleon Hill",
+    "tags": [
+      "persistence",
+      "character"
+    ]
+  },
+  {
+    "text": "If you must speak ill of another, do not speak it, write it in the sand near the water's edge",
+    "author": "Napoleon Hill",
+    "tags": [
+      "wisdom",
+      "forgiveness"
+    ]
+  },
+  {
+    "text": "Weak desires bring weak results, just as a small amount of fire brings a small amount of heat",
+    "author": "Napoleon Hill",
+    "tags": [
+      "desire",
+      "success"
+    ]
+  },
+  {
+    "text": "Most so called failures are only temporary defeats",
+    "author": "Napoleon Hill",
+    "tags": [
+      "failure",
+      "persistence"
+    ]
+  },
+  {
+    "text": "Fears are nothing more than a state of mind",
+    "author": "Napoleon Hill",
+    "tags": [
+      "fear",
+      "mindset"
+    ]
+  },
+  {
+    "text": "Every man is what he is, because of the dominating thoughts which he permits to occupy his mind",
+    "author": "Napoleon Hill",
+    "tags": [
+      "mindset",
+      "thoughts"
+    ]
+  },
+  {
+    "text": "Control your finances, or lack of them will control you",
+    "author": "Napoleon Hill",
+    "tags": [
+      "money",
+      "discipline"
+    ]
+  },
+  {
+    "text": "The capacity to surmount failure without being discouraged is the chief asset of every person who attains outstanding success in any calling",
+    "author": "Napoleon Hill",
+    "tags": [
+      "failure",
+      "success"
+    ]
+  },
+  {
+    "text": "Most great people have attained their greatest success just one step beyond their greatest failure.",
+    "author": "Napoleon Hill",
+    "tags": [
+      "success",
+      "persistence"
+    ]
+  },
+  {
+    "text": "Seven habits to form in order to outwit the devil: 1) Have a Definite Major Purpose in life; 2) Obtain self-mastery; 3) Use adversity for benefits; 4) Use time as a tool; 5) Find harmony; 6) Think through your plan for attaining your Definite Major Purpose",
+    "author": "Napoleon Hill",
+    "tags": [
+      "success",
+      "discipline"
+    ]
+  },
+  {
+    "text": "Ten must-do things in order to prevent drifting: 1) Do your own thinking on all occasions; 2) Have a Definite Major Purpose and create a definite plan of action for attaining it; 3) Analyze temporary defeat and no matter what extract a seed of equivalent benefit from it; 4) Be willing to render the service for all material things that you demand of life—render more and better service first, accept the payment later; 5) Recognize that your mind communicates with infinite intelligence and helps you transmute your desires into reality; 6) Recognize that your greatest asset is time; 7) Know that fear is a filler that occupies the parts of your mind that the devil fills—it is a state of mind that can instead be filled with what you want; 8) When you pray, don't beg—demand getting exactly what you want with no substitutions; 9) Either you master life or it masters you—there is no half-way, never accept what you don't want; 10) Your dominating thoughts always attract their physical counterparts",
+    "author": "Napoleon Hill",
+    "tags": [
+      "success",
+      "discipline"
+    ]
+  },
+  {
+    "text": "Three appetites to master in order to obtain self-mastery: 1) the desire for food; 2) the desire for sex expression; 3) the desire to express loosely formed ideas",
+    "author": "Napoleon Hill",
+    "tags": [
+      "self-mastery",
+      "discipline"
+    ]
+  },
+  {
+    "text": "Example is not the main thing in influencing other people; it's the only thing.",
+    "author": "Abraham Lincoln",
+    "tags": [
+      "leadership",
+      "influence"
+    ]
+  },
+  {
+    "text": "Leadership is the art of getting someone else to do something you want done because he wants to do it.",
+    "author": "Dwight D. Eisenhower",
+    "tags": [
+      "leadership",
+      "influence"
+    ]
+  },
+  {
+    "text": "In preparing for battle I have always found that plans are useless, but planning is indispensable.",
+    "author": "Dwight D. Eisenhower",
+    "tags": [
+      "planning",
+      "strategy"
+    ]
+  },
+  {
+    "text": "The benefit of plans is planning, not the plan",
+    "author": "Dwight D. Eisenhower",
+    "tags": [
+      "planning",
+      "strategy"
+    ]
+  },
+  {
+    "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "author": "Aristotle",
+    "tags": [
+      "excellence",
+      "habits"
+    ]
+  },
+  {
+    "text": "After a certain point, money is meaningless. It ceases to be the goal. The game is what counts.",
+    "author": "Aristotle",
+    "tags": [
+      "money",
+      "purpose"
+    ]
+  },
+  {
+    "text": "Wise man speak when they have something to say, fools speak because they have to say something",
+    "author": "Aristotle",
+    "tags": [
+      "wisdom",
+      "silence"
+    ]
+  },
+  {
+    "text": "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+    "author": "Benjamin Franklin",
+    "tags": [
+      "learning",
+      "education"
+    ]
+  },
+  {
+    "text": "Thirteen virtues: Temperance — eat not to dullness, drink not to elevation; Silence — speak not but what may benefit others or yourself, avoid trifling conversation; Order — let all your things have their places, let each part of your business have its time; Resolution — resolve to perform what you ought, perform without fail what you resolve; Frugality — make no expense but to do good to others or yourself, waste nothing; Industry — lose no time, be always employed in something useful, cut off all unnecessary actions; Sincerity — use no harmful deceit, think innocently and justly, and if you speak, speak accordingly; Justice — wrong none by doing injuries or omitting the benefits that are your duty; Moderation — avoid extremes, forebear resenting injuries so much as you think they deserve; Cleanliness — tolerate no uncleanness in body, clothes or habitation; Tranquility — be not disturbed at trifles, nor at accidents common or unavoidable; Chastity — rarely use venery but for health or offspring, never to dullness, weakness, or injury of your own or another's peace or reputation; Humility — imitate Jesus and Socrates.",
+    "author": "Benjamin Franklin",
+    "tags": [
+      "virtue",
+      "discipline"
+    ]
+  },
+  {
+    "text": "To be is to do",
+    "author": "Socrates",
+    "tags": [
+      "action",
+      "philosophy"
+    ]
+  },
+  {
+    "text": "Being powerful is like being a lady. If you have to tell people you are, you aren't.",
+    "author": "Margaret Thatcher",
+    "tags": [
+      "power",
+      "leadership"
+    ]
+  },
+  {
+    "text": "Standing in the middle of the road is very dangerous; you get knocked down by the traffic from both sides",
+    "author": "Margaret Thatcher",
+    "tags": [
+      "conviction",
+      "leadership"
+    ]
+  },
+  {
+    "text": "Disciplining yourself to do what you know is right and important, although difficult, is the highroad to pride, self-esteem, and personal satisfaction.",
+    "author": "Margaret Thatcher",
+    "tags": [
+      "discipline",
+      "self-esteem"
+    ]
+  },
+  {
+    "text": "The problem with socialism is that you eventually run out of other people's money.",
+    "author": "Margaret Thatcher",
+    "tags": [
+      "politics",
+      "economics"
+    ]
+  },
+  {
+    "text": "There can be no liberty unless there is economic liberty.",
+    "author": "Margaret Thatcher",
+    "tags": [
+      "liberty",
+      "economics"
+    ]
+  },
+  {
+    "text": "You may have to fight a battle more than once to win it.",
+    "author": "Margaret Thatcher",
+    "tags": [
+      "persistence",
+      "perseverance"
+    ]
+  },
+  {
+    "text": "It is better to keep your mouth shut and appear stupid than to open it and remove all doubt.",
+    "author": "Mark Twain",
+    "tags": [
+      "wisdom",
+      "silence"
+    ]
+  },
+  {
+    "text": "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Catch the trade winds in your sails. Explore. Dream. Discover",
+    "author": "Mark Twain",
+    "tags": [
+      "adventure",
+      "regret"
+    ]
+  },
+  {
+    "text": "A person isn't who they are during the last conversation you had with them - they're who they've been throughout your whole relationship.",
+    "author": "Rainer Maria Rilke",
+    "tags": [
+      "relationships",
+      "understanding"
+    ]
+  },
+  {
+    "text": "Great minds discuss ideas; Average minds discuss events; Small minds discuss people.",
+    "author": "Eleanor Roosevelt",
+    "tags": [
+      "wisdom",
+      "mindset"
+    ]
+  },
+  {
+    "text": "Do something that scares you every day",
+    "author": "Eleanor Roosevelt",
+    "tags": [
+      "courage",
+      "growth"
+    ]
+  },
+  {
+    "text": "In the midst of difficulty lies opportunity.",
+    "author": "Albert Einstein",
+    "tags": [
+      "opportunity",
+      "adversity"
+    ]
+  },
+  {
+    "text": "Put your hand on a hot stove for a minute, and it seems like an hour. Sit with a pretty girl for an hour, and it seems like a minute. That's Relativity.",
+    "author": "Albert Einstein",
+    "tags": [
+      "science",
+      "humor"
+    ]
+  },
+  {
+    "text": "Everything should be made as simple as possible, but not simpler.",
+    "author": "Albert Einstein",
+    "tags": [
+      "simplicity",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Make everything as simple as possible, but not simpler.",
+    "author": "Albert Einstein",
+    "tags": [
+      "simplicity",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "If you want to live a happy life, tie it to a goal, not to people or things.",
+    "author": "Albert Einstein",
+    "tags": [
+      "happiness",
+      "goals"
+    ]
+  },
+  {
+    "text": "Great spirits have always encountered violent opposition from mediocre minds.",
+    "author": "Albert Einstein",
+    "tags": [
+      "greatness",
+      "opposition"
+    ]
+  },
+  {
+    "text": "A man should look for what is, and not for what he thinks should be.",
+    "author": "Albert Einstein",
+    "tags": [
+      "truth",
+      "reality"
+    ]
+  },
+  {
+    "text": "Anger dwells only in the bosom of fools.",
+    "author": "Albert Einstein",
+    "tags": [
+      "anger",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.",
+    "author": "Albert Einstein",
+    "tags": [
+      "humor",
+      "focus"
+    ]
+  },
+  {
+    "text": "Anyone who doesn't take truth seriously in small matters cannot be trusted in large ones either.",
+    "author": "Albert Einstein",
+    "tags": [
+      "truth",
+      "integrity"
+    ]
+  },
+  {
+    "text": "Education is what remains after one has forgotten what one has learned in school.",
+    "author": "Albert Einstein",
+    "tags": [
+      "education",
+      "learning"
+    ]
+  },
+  {
+    "text": "Everyone should be respected as an individual, but no one idolized.",
+    "author": "Albert Einstein",
+    "tags": [
+      "respect",
+      "individuality"
+    ]
+  },
+  {
+    "text": "If we knew what it was we were doing, it would not be called research, would it?",
+    "author": "Albert Einstein",
+    "tags": [
+      "research",
+      "science"
+    ]
+  },
+  {
+    "text": "If you can't explain it simply (to a 6 year old), you don't understand it well enough.",
+    "author": "Albert Einstein",
+    "tags": [
+      "simplicity",
+      "understanding"
+    ]
+  },
+  {
+    "text": "Imagination is more important than knowledge.",
+    "author": "Albert Einstein",
+    "tags": [
+      "imagination",
+      "knowledge"
+    ]
+  },
+  {
+    "text": "Intellectual growth should commence at birth and cease only at death.",
+    "author": "Albert Einstein",
+    "tags": [
+      "growth",
+      "learning"
+    ]
+  },
+  {
+    "text": "Intellectuals solve problems, geniuses prevent them.",
+    "author": "Albert Einstein",
+    "tags": [
+      "genius",
+      "problem-solving"
+    ]
+  },
+  {
+    "text": "It is a miracle that curiosity survives formal education.",
+    "author": "Albert Einstein",
+    "tags": [
+      "curiosity",
+      "education"
+    ]
+  },
+  {
+    "text": "It should be possible to explain the laws of physics to a barmaid.",
+    "author": "Albert Einstein",
+    "tags": [
+      "simplicity",
+      "science"
+    ]
+  },
+  {
+    "text": "Everything is energy and that's all there is to it. Match the frequency of the reality you want and you cannot help but get that reality. It can be no other way. This is not philosophy. This is physics.",
+    "author": "Albert Einstein",
+    "tags": [
+      "energy",
+      "reality"
+    ]
+  },
+  {
+    "text": "We cannot solve our problems with the same thinking we used when we created them.",
+    "author": "Albert Einstein",
+    "tags": [
+      "problem-solving",
+      "mindset"
+    ]
+  },
+  {
+    "text": "Life is like riding a bicycle. To keep your balance, you must keep moving",
+    "author": "Albert Einstein",
+    "tags": [
+      "life",
+      "perseverance"
+    ]
+  },
+  {
+    "text": "Two things are infinite: the universe and human stupidity, and I'm not sure about the universe",
+    "author": "Albert Einstein",
+    "tags": [
+      "humor",
+      "human-nature"
+    ]
+  },
+  {
+    "text": "A clever person solves a problem, a wise person avoids it",
+    "author": "Albert Einstein",
+    "tags": [
+      "wisdom",
+      "problem-solving"
+    ]
+  },
+  {
+    "text": "Any fool can know, the point is to understand",
+    "author": "Albert Einstein",
+    "tags": [
+      "understanding",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "We all know light travels faster than sound, that is why certain people appear bright until you hear them speak",
+    "author": "Albert Einstein",
+    "tags": [
+      "humor",
+      "wit"
+    ]
+  },
+  {
+    "text": "Genius is 1% talent, and 99% hard work",
+    "author": "Albert Einstein",
+    "tags": [
+      "genius",
+      "hard-work"
+    ]
+  },
+  {
+    "text": "You never fail, until you stop trying",
+    "author": "Albert Einstein",
+    "tags": [
+      "failure",
+      "persistence"
+    ]
+  },
+  {
+    "text": "Wisdom is not the product of schooling, but of the lifelong attempt to acquire it",
+    "author": "Albert Einstein",
+    "tags": [
+      "wisdom",
+      "learning"
+    ]
+  },
+  {
+    "text": "Three great forces rule the world: stupidity, fear and greed",
+    "author": "Albert Einstein",
+    "tags": [
+      "human-nature",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Do not grow old, no matter how long you live. Never cease to stand like curious children before the great mystery into which we were born",
+    "author": "Albert Einstein",
+    "tags": [
+      "curiosity",
+      "wonder"
+    ]
+  },
+  {
+    "text": "Weak people revenge. Strong people forgive. Intelligent people ignore",
+    "author": "Albert Einstein",
+    "tags": [
+      "forgiveness",
+      "strength"
+    ]
+  },
+  {
+    "text": "Only those who will risk going too far can possibly find out how far one can go.",
+    "author": "TS Eliot",
+    "tags": [
+      "risk",
+      "growth"
+    ]
+  },
+  {
+    "text": "Anger is the poisoned root with a honeyed tip",
+    "author": "Buddha",
+    "tags": [
+      "anger",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Never go to sleep without a request to your subconscious.",
+    "author": "Thomas Edison",
+    "tags": [
+      "subconscious",
+      "success"
+    ]
+  },
+  {
+    "text": "I have not failed. I've just found 10,000 ways that won't work.",
+    "author": "Thomas Edison",
+    "tags": [
+      "failure",
+      "persistence"
+    ]
+  },
+  {
+    "text": "I never perfected an invention that I did not think about in terms of the service it might give others… I find out what the world needs, then I proceed to invent.",
+    "author": "Thomas Edison",
+    "tags": [
+      "invention",
+      "service"
+    ]
+  },
+  {
+    "text": "Opportunity is missed by most people because it is dressed in overalls and looks like work.",
+    "author": "Thomas Edison",
+    "tags": [
+      "opportunity",
+      "hard-work"
+    ]
+  },
+  {
+    "text": "Lead, follow, or get the fuck out of the way",
+    "author": "Unknown",
+    "tags": [
+      "leadership",
+      "action"
+    ]
+  },
+  {
+    "text": "Three simple rules in life. 1. If you do not go after what you want, you'll never have it. 2. If you do not ask, the answer will always be no. 3. If you do not step forward, you will always be in the same place.",
+    "author": "Unknown",
+    "tags": [
+      "action",
+      "ambition"
+    ]
+  },
+  {
+    "text": "Don't ever mistake my silence for ignorance, my calmness for acceptance, or my kindness for weakness.",
+    "author": "Unknown",
+    "tags": [
+      "strength",
+      "character"
+    ]
+  },
+  {
+    "text": "There are two rules for success. 1) Never tell everything you know.",
+    "author": "Roger H. Lincoln",
+    "tags": [
+      "success",
+      "humor"
+    ]
+  },
+  {
+    "text": "The only place where success comes before work is in the dictionary.",
+    "author": "Vidal Sassoon",
+    "tags": [
+      "success",
+      "work"
+    ]
+  },
+  {
+    "text": "Every single person I know who is successful at what they do is successful because they love doing it.",
+    "author": "Joe Penna",
+    "tags": [
+      "success",
+      "passion"
+    ]
+  },
+  {
+    "text": "Being realistic is the most commonly traveled road to mediocrity.",
+    "author": "Will Smith",
+    "tags": [
+      "ambition",
+      "mediocrity"
+    ]
+  },
+  {
+    "text": "Whenever an individual or a business decides that success has been attained, progress stops.",
+    "author": "Thomas J. Watson",
+    "tags": [
+      "success",
+      "progress"
+    ]
+  },
+  {
+    "text": "To be successful, you have to have your heart in your business, and your business in your heart.",
+    "author": "Thomas J. Watson",
+    "tags": [
+      "success",
+      "business"
+    ]
+  },
+  {
+    "text": "If hard work is the key to success, most people would rather pick the lock.",
+    "author": "Claude McDonald",
+    "tags": [
+      "work",
+      "humor"
+    ]
+  },
+  {
+    "text": "Success is simply a matter of luck. Ask any failure.",
+    "author": "Earl Wilson",
+    "tags": [
+      "success",
+      "luck"
+    ]
+  },
+  {
+    "text": "The road to success is always under construction.",
+    "author": "Arnold Palmer",
+    "tags": [
+      "success",
+      "perseverance"
+    ]
+  },
+  {
+    "text": "Once you say you're going to settle for second, that's what happens to you in life.",
+    "author": "John F. Kennedy",
+    "tags": [
+      "ambition",
+      "success"
+    ]
+  },
+  {
+    "text": "The biggest failure you can have in life is not trying at all.",
+    "author": "Emil Motycka",
+    "tags": [
+      "failure",
+      "action"
+    ]
+  },
+  {
+    "text": "I honestly think it is better to be a failure at something you love than to be a success at something you hate.",
+    "author": "George Burns",
+    "tags": [
+      "passion",
+      "success"
+    ]
+  },
+  {
+    "text": "Leaders don't force people to follow, they invite them on a journey.",
+    "author": "Charles S. Lauer",
+    "tags": [
+      "leadership"
+    ]
+  },
+  {
+    "text": "Leadership is doing what is right when no one is watching.",
+    "author": "George Van Valkenburg",
+    "tags": [
+      "leadership",
+      "integrity"
+    ]
+  },
+  {
+    "text": "The difference between a boss and a leader: a boss says, 'Go!' -a leader says, 'Let's go!'.",
+    "author": "E. M. Kelly",
+    "tags": [
+      "leadership"
+    ]
+  },
+  {
+    "text": "I am more afraid of an army of one hundred sheep led by a lion than an army of one hundred lions led by a sheep.",
+    "author": "Charles Maurice",
+    "tags": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "text": "The whole problem with the world is that fools and fanatics are always so certain of themselves, but wiser people so full of doubts.",
+    "author": "Bertrand Russell",
+    "tags": [
+      "wisdom",
+      "doubt"
+    ]
+  },
+  {
+    "text": "Cannibals prefer those who have no spines.",
+    "author": "Stanislaw Lem",
+    "tags": [
+      "character",
+      "humor"
+    ]
+  },
+  {
+    "text": "A ship in harbor is safe. But that's now what ships are built for.",
+    "author": "William Shedd",
+    "tags": [
+      "courage",
+      "risk"
+    ]
+  },
+  {
+    "text": "You miss 100% of the shots you don't take.",
+    "author": "Wayne Gretzky",
+    "tags": [
+      "action",
+      "risk"
+    ]
+  },
+  {
+    "text": "I'm not a businessman. I'm a business, man.",
+    "author": "Jay-Z",
+    "tags": [
+      "business",
+      "humor"
+    ]
+  },
+  {
+    "text": "The vision must be followed by the venture. It is not enough to stare up the steps – we must step up the stairs.",
+    "author": "Vance Hayner",
+    "tags": [
+      "action",
+      "vision"
+    ]
+  },
+  {
+    "text": "Do not wait to strike until the iron is hot; but make it hot by striking.",
+    "author": "William B. Sprague",
+    "tags": [
+      "action",
+      "initiative"
+    ]
+  },
+  {
+    "text": "It's easier to ask forgiveness than it is to get permission.",
+    "author": "Grace Hopper",
+    "tags": [
+      "action",
+      "initiative"
+    ]
+  },
+  {
+    "text": "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do.",
+    "author": "Mark Twain",
+    "tags": [
+      "regret",
+      "action"
+    ]
+  },
+  {
+    "text": "One day your life will flash before your eyes. Make sure it is worth watching.",
+    "author": "Mooie",
+    "tags": [
+      "life",
+      "purpose"
+    ]
+  },
+  {
+    "text": "I think it's wrong that only one company makes the game Monopoly.",
+    "author": "Steven Wright",
+    "tags": [
+      "humor"
+    ]
+  },
+  {
+    "text": "Ever notice how it's a penny for your thoughts, yet you put in your two-cents? Someone is making a penny on the deal.",
+    "author": "Steven Wright",
+    "tags": [
+      "humor"
+    ]
+  },
+  {
+    "text": "I used to sell furniture for a living. The trouble was, it was my own.",
+    "author": "Les Dawson",
+    "tags": [
+      "humor"
+    ]
+  },
+  {
+    "text": "Marking dynamos for repair $10,000.00—2 hours labor $10.00; knowing where to mark $9,990.00.",
+    "author": "Invoice from Charles Steinmetz",
+    "tags": [
+      "expertise",
+      "value"
+    ]
+  },
+  {
+    "text": "By working faithfully eight hours a day you may eventually get to be boss and work twelve hours a day.",
+    "author": "Robert Frost",
+    "tags": [
+      "work",
+      "humor"
+    ]
+  },
+  {
+    "text": "My son is now an 'entrepreneur'. That's what you're called when you don't have a job.",
+    "author": "Ted Turner",
+    "tags": [
+      "humor",
+      "entrepreneurship"
+    ]
+  },
+  {
+    "text": "I didn't go to college, but if I did, I would've taken all my tests at a restaurant, 'cause 'The customer is always right.'",
+    "author": "Mitch Hedberg",
+    "tags": [
+      "humor",
+      "education"
+    ]
+  },
+  {
+    "text": "Formal education will make you a living. Self education will make you a fortune.",
+    "author": "Jim Rohn",
+    "tags": [
+      "education",
+      "wealth"
+    ]
+  },
+  {
+    "text": "The greatest reward in becoming a millionaire is not the amount of money that you earn. It is the kind of person that you have to become to become a millionaire in the first place.",
+    "author": "Jim Rohn",
+    "tags": [
+      "wealth",
+      "growth"
+    ]
+  },
+  {
+    "text": "If you're not learning while you're earning, you're cheating yourself out of the better portion of your compensation.",
+    "author": "Napoleon Hill",
+    "tags": [
+      "learning",
+      "work"
+    ]
+  },
+  {
+    "text": "I treat business a bit like a computer game. I count money as points. I'm doing really well: making lots of money and lots of points.",
+    "author": "Michael Dunlop",
+    "tags": [
+      "business",
+      "money"
+    ]
+  },
+  {
+    "text": "All of my friends were doing babysitting jobs. I wanted money without the job.",
+    "author": "Adam Horwitz",
+    "tags": [
+      "entrepreneurship",
+      "money"
+    ]
+  },
+  {
+    "text": "I don't pay good wages because I have a lot of money; I have a lot of money because I pay good wages.",
+    "author": "Robert Bosch",
+    "tags": [
+      "business",
+      "leadership"
+    ]
+  },
+  {
+    "text": "Lend your friend $20. If he doesn't pay you back then he's not your friend. Money well spent.",
+    "author": "Ted Nicolas",
+    "tags": [
+      "money",
+      "humor"
+    ]
+  },
+  {
+    "text": "Money and success don't change people; they merely amplify what is already there.",
+    "author": "Will Smith",
+    "tags": [
+      "money",
+      "character"
+    ]
+  },
+  {
+    "text": "The secret of getting ahead is getting started.",
+    "author": "Agatha Christie",
+    "tags": [
+      "action",
+      "beginning"
+    ]
+  },
+  {
+    "text": "Hire character. Train skill.",
+    "author": "Peter Schultz",
+    "tags": [
+      "leadership",
+      "character"
+    ]
+  },
+  {
+    "text": "You've got to stop doing all the things that people have tried, tested, and found out don't work.",
+    "author": "Michael Dunlop",
+    "tags": [
+      "business",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "If you're not making mistakes, then you're not making decisions.",
+    "author": "Catherine Cook",
+    "tags": [
+      "mistakes",
+      "action"
+    ]
+  },
+  {
+    "text": "One can get anything if he is willing to help enough others get what they want.",
+    "author": "Zig Ziglar",
+    "tags": [
+      "success",
+      "service"
+    ]
+  },
+  {
+    "text": "An entrepreneur tends to bite off a little more than he can chew hoping he'll quickly learn how to chew it.",
+    "author": "Roy Ash",
+    "tags": [
+      "entrepreneurship",
+      "ambition"
+    ]
+  },
+  {
+    "text": "The true entrepreneur is a doer, not a dreamer.",
+    "author": "Nolan Bushnell",
+    "tags": [
+      "entrepreneurship",
+      "action"
+    ]
+  },
+  {
+    "text": "Whenever you are asked if you can do a job, tell 'em, 'Certainly, I can!' Then get busy and find out how to do it.",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "confidence",
+      "action"
+    ]
+  },
+  {
+    "text": "Everything started as nothing.",
+    "author": "Ben Weissenstein",
+    "tags": [
+      "beginning",
+      "creation"
+    ]
+  },
+  {
+    "text": "If you start with nothing and end up with nothing, there's nothing lost.",
+    "author": "Michael Dunlop",
+    "tags": [
+      "risk",
+      "entrepreneurship"
+    ]
+  },
+  {
+    "text": "Start today, not tomorrow. If anything, you should have started yesterday.",
+    "author": "Emil Motycka",
+    "tags": [
+      "action",
+      "urgency"
+    ]
+  },
+  {
+    "text": "Make it happen now, not tomorrow. Tomorrow is a loser's excuse.",
+    "author": "Andrew Fashion",
+    "tags": [
+      "action",
+      "urgency"
+    ]
+  },
+  {
+    "text": "Every day I get up and look through the Forbes list of the richest people in America. If I'm not there, I go to work.",
+    "author": "Robert Orben",
+    "tags": [
+      "work",
+      "humor"
+    ]
+  },
+  {
+    "text": "Yesterday's home runs don't win today's games.",
+    "author": "Babe Ruth",
+    "tags": [
+      "perseverance",
+      "present"
+    ]
+  },
+  {
+    "text": "You should always stay hungry. Stay hungry, so you can eat.",
+    "author": "Syed Balkhi",
+    "tags": [
+      "ambition",
+      "drive"
+    ]
+  },
+  {
+    "text": "The best way to predict the future is to create it.",
+    "author": "Peter Drucker",
+    "tags": [
+      "future",
+      "action"
+    ]
+  },
+  {
+    "text": "I wasn't satisfied just to earn a good living. I was looking to make a statement.",
+    "author": "Donald Trump",
+    "tags": [
+      "ambition",
+      "purpose"
+    ]
+  },
+  {
+    "text": "You must either modify your dreams or magnify your skills.",
+    "author": "Jim Rohn",
+    "tags": [
+      "growth",
+      "dreams"
+    ]
+  },
+  {
+    "text": "Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great.",
+    "author": "Mark Twain",
+    "tags": [
+      "ambition",
+      "greatness"
+    ]
+  },
+  {
+    "text": "Not a single person whose name is worth remembering lived a life of ease.",
+    "author": "Ryan P. Allis",
+    "tags": [
+      "greatness",
+      "adversity"
+    ]
+  },
+  {
+    "text": "If you think that you are going to love something, give it a try. You're going to kick yourself in the butt for the rest of your life if you don't.",
+    "author": "Joe Penna",
+    "tags": [
+      "action",
+      "regret"
+    ]
+  },
+  {
+    "text": "Forgive others, not because they deserve forgiveness, but because you deserve peace.",
+    "author": "Jonathan Lockwood Huie",
+    "tags": [
+      "forgiveness",
+      "peace"
+    ]
+  },
+  {
+    "text": "When the whole world is silent, even one voice becomes powerful.",
+    "author": "Malala Yousafzai",
+    "tags": [
+      "courage",
+      "voice"
+    ]
+  },
+  {
+    "text": "Most people do not listen with the intent to understand. Most people listen with the intent to reply.",
+    "author": "Stephen R. Covey",
+    "tags": [
+      "listening",
+      "communication"
+    ]
+  },
+  {
+    "text": "The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.",
+    "author": "Albert Einstein",
+    "tags": [
+      "thinking",
+      "change"
+    ]
+  },
+  {
+    "text": "The reason why we struggle with insecurity is because we compare our behind the scenes with everyone else's highlight reel.",
+    "author": "Steven Furtick",
+    "tags": [
+      "insecurity",
+      "comparison"
+    ]
+  },
+  {
+    "text": "Education is the most powerful weapon which you can use to change the world.",
+    "author": "Nelson Mandela",
+    "tags": [
+      "education",
+      "change"
+    ]
+  },
+  {
+    "text": "We judge ourselves by our intentions. And others by their actions.",
+    "author": "Stephen R. Covey",
+    "tags": [
+      "judgment",
+      "self-awareness"
+    ]
+  },
+  {
+    "text": "If you don't like something, change it. If you can't change it, change the way you think about it.",
+    "author": "Mary Engelbreit",
+    "tags": [
+      "change",
+      "mindset"
+    ]
+  },
+  {
+    "text": "We choose to go to the moon and do these other things, not because they are easy, but because they are hard.",
+    "author": "John Fitzgerald Kennedy",
+    "tags": [
+      "ambition",
+      "challenge"
+    ]
+  },
+  {
+    "text": "The time you enjoy wasting is not wasted time.",
+    "author": "Unknown",
+    "tags": [
+      "time",
+      "joy"
+    ]
+  },
+  {
+    "text": "Whether you think you can, or you think you can't — either way you're right.",
+    "author": "Henry Ford",
+    "tags": [
+      "mindset",
+      "belief"
+    ]
+  },
+  {
+    "text": "Challenges is what makes life interesting and overcoming them is what makes life meaningful.",
+    "author": "Joshua J. Marine",
+    "tags": [
+      "challenge",
+      "meaning"
+    ]
+  },
+  {
+    "text": "I don't count my sit-ups. I only start counting when it starts hurting. That is when I start counting, because then it really counts. That's what makes you a champion.",
+    "author": "Muhammad Ali",
+    "tags": [
+      "perseverance",
+      "discipline"
+    ]
+  },
+  {
+    "text": "True success is overcoming the fear of being unsuccessful.",
+    "author": "Paul Sweeney",
+    "tags": [
+      "success",
+      "fear"
+    ]
+  },
+  {
+    "text": "Never give up on what you really want to do. The person with big dreams is more powerful than the one with all the facts.",
+    "author": "H. Jackson Brown, Jr.",
+    "tags": [
+      "dreams",
+      "perseverance"
+    ]
+  },
+  {
+    "text": "The definition of hell, is at the end of your life, meeting the person that you could have become",
+    "author": "Unknown",
+    "tags": [
+      "regret",
+      "potential"
+    ]
+  },
+  {
+    "text": "Be yourself. Everyone else is already taken.",
+    "author": "Oscar Wilde",
+    "tags": [
+      "authenticity",
+      "individuality"
+    ]
+  },
+  {
+    "text": "To love oneself is a beginning of a lifelong romance",
+    "author": "Oscar Wilde",
+    "tags": [
+      "self-love",
+      "life"
+    ]
+  },
+  {
+    "text": "We live in an age where unnecessary things are our only necessity",
+    "author": "Oscar Wilde",
+    "tags": [
+      "society",
+      "materialism"
+    ]
+  },
+  {
+    "text": "Most people are other people. Their thoughts are someone else's opinions, their life a mimicry, their passions a quotation",
+    "author": "Oscar Wilde",
+    "tags": [
+      "individuality",
+      "authenticity"
+    ]
+  },
+  {
+    "text": "Women are meant to be loved, not to be understood",
+    "author": "Oscar Wilde",
+    "tags": [
+      "love",
+      "relationships"
+    ]
+  },
+  {
+    "text": "Nowadays people know the price of everything and the value of nothing",
+    "author": "Oscar Wilde",
+    "tags": [
+      "value",
+      "society"
+    ]
+  },
+  {
+    "text": "Vision without action is a daydream. Action without vision is a nightmare.",
+    "author": "Japanese Proverb",
+    "tags": [
+      "vision",
+      "action"
+    ]
+  },
+  {
+    "text": "The best time to plant a tree is twenty years ago. The second best time is now.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "action",
+      "time"
+    ]
+  },
+  {
+    "text": "If you want one year of prosperity, grow grain. If you want ten years of prosperity, grow trees. If you want one hundred years of prosperity, grow people.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "investment",
+      "growth"
+    ]
+  },
+  {
+    "text": "Sow a thought, reap an action; sow an action, reap a habit; sow a habit, reap a character; sow a character, reap a destiny.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "habits",
+      "destiny"
+    ]
+  },
+  {
+    "text": "A bad workman blames his tools.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "responsibility",
+      "excuses"
+    ]
+  },
+  {
+    "text": "A fall into a ditch makes you wiser.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "wisdom",
+      "adversity"
+    ]
+  },
+  {
+    "text": "Defeat isn't bitter if you don't swallow it.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "perseverance",
+      "defeat"
+    ]
+  },
+  {
+    "text": "The diamond cannot be polished without friction, nor the man perfected without trials.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "adversity",
+      "growth"
+    ]
+  },
+  {
+    "text": "A jade stone is useless before it is processed; a man is good-for-nothing until he is educated.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "education",
+      "growth"
+    ]
+  },
+  {
+    "text": "A journey of a thousand miles begins with a single step.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "beginning",
+      "action"
+    ]
+  },
+  {
+    "text": "The loftiest towers rise from the ground.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "beginning",
+      "foundation"
+    ]
+  },
+  {
+    "text": "Building a castle is difficult. Defending and maintaining it is harder still.",
+    "author": "Asian Proverb",
+    "tags": [
+      "perseverance",
+      "endurance"
+    ]
+  },
+  {
+    "text": "A person who says it cannot be done should not interrupt the man doing it.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "action",
+      "doubt"
+    ]
+  },
+  {
+    "text": "All cats love fish but fear to wet their paws.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "desire",
+      "effort"
+    ]
+  },
+  {
+    "text": "Don't stand by the water and long for fish; go home and weave a net.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "action",
+      "initiative"
+    ]
+  },
+  {
+    "text": "Everyone should carefully observe which way his heart draws him, and then choose that way with all his strength.",
+    "author": "Hasidic Proverb",
+    "tags": [
+      "purpose",
+      "passion"
+    ]
+  },
+  {
+    "text": "Failing to plan is planning to fail.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "planning",
+      "preparation"
+    ]
+  },
+  {
+    "text": "If you pay peanuts, you get monkeys.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "value",
+      "business"
+    ]
+  },
+  {
+    "text": "Make happy those who are near, and those who are far will come.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "leadership",
+      "kindness"
+    ]
+  },
+  {
+    "text": "Teachers open the door. You enter by yourself.",
+    "author": "Chinese Proverb",
+    "tags": [
+      "learning",
+      "responsibility"
+    ]
+  },
+  {
+    "text": "I hear, I forget. I see, I remember. I do, I understand.",
+    "author": "Confucius",
+    "tags": [
+      "learning",
+      "action"
+    ]
+  },
+  {
+    "text": "A journey of a thousand miles begins with the first step.",
+    "author": "Confucius",
+    "tags": [
+      "beginning",
+      "action"
+    ]
+  },
+  {
+    "text": "Find a job you love and you'll never work a day in your life.",
+    "author": "Confucius",
+    "tags": [
+      "passion",
+      "work"
+    ]
+  },
+  {
+    "text": "Life is really simple, but we insist on making it complicated.",
+    "author": "Confucius",
+    "tags": [
+      "simplicity",
+      "life"
+    ]
+  },
+  {
+    "text": "Everything has beauty, but not everyone sees it",
+    "author": "Confucius",
+    "tags": [
+      "beauty",
+      "perspective"
+    ]
+  },
+  {
+    "text": "It does not matter how slowly you go as long as you do not stop",
+    "author": "Confucius",
+    "tags": [
+      "perseverance",
+      "progress"
+    ]
+  },
+  {
+    "text": "The man who moves a mountain begins by carrying away small stones",
+    "author": "Confucius",
+    "tags": [
+      "perseverance",
+      "beginning"
+    ]
+  },
+  {
+    "text": "Study the past if you would define the future",
+    "author": "Confucius",
+    "tags": [
+      "history",
+      "future"
+    ]
+  },
+  {
+    "text": "The man who says he can, and the man who says he cannot - are both correct",
+    "author": "Confucius",
+    "tags": [
+      "mindset",
+      "belief"
+    ]
+  },
+  {
+    "text": "Your life is what your thoughts make it",
+    "author": "Confucius",
+    "tags": [
+      "thoughts",
+      "life"
+    ]
+  },
+  {
+    "text": "Before you embark on a journey of revenge, dig two graves",
+    "author": "Confucius",
+    "tags": [
+      "revenge",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "To be wronged is nothing, unless you continue to remember it",
+    "author": "Confucius",
+    "tags": [
+      "forgiveness",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Wvery man has two lives, the second begins when we realize we have only one",
+    "author": "Confucius",
+    "tags": [
+      "life",
+      "awakening"
+    ]
+  },
+  {
+    "text": "I love deadlines. I like the whooshing sound they make as they fly by.",
+    "author": "Douglas Adams",
+    "tags": [
+      "humor",
+      "time"
+    ]
+  },
+  {
+    "text": "I may not have gone where I intended to go, but I think I've ended up where I needed to be",
+    "author": "Douglas Adams",
+    "tags": [
+      "destiny",
+      "life"
+    ]
+  },
+  {
+    "text": "Research is the process of going up alleys to see it they are blind",
+    "author": "Marston Bates",
+    "tags": [
+      "research",
+      "discovery"
+    ]
+  },
+  {
+    "text": "If you want truly to understand something, try to change it.",
+    "author": "Kurt Lewin",
+    "tags": [
+      "understanding",
+      "change"
+    ]
+  },
+  {
+    "text": "Whereof one cannot speak, thereof one must be silent.",
+    "author": "Ludwig Wittgenstein",
+    "tags": [
+      "silence",
+      "philosophy"
+    ]
+  },
+  {
+    "text": "Eat to live, don't live to eat!",
+    "author": "Unknown",
+    "tags": [
+      "moderation",
+      "life"
+    ]
+  },
+  {
+    "text": "How many existentialists does it take to screw in a lightbulb? - Two. One to screw it in, and one to observe how the lightbulb itself symbolizes a single incandescent beacon of subjective reality in a netherworld of endless absurdity reaching out toward a maudlin cosmos of nothingness.",
+    "author": "Unknown",
+    "tags": [
+      "humor",
+      "philosophy"
+    ]
+  },
+  {
+    "text": "Entrepreneurship is living a few years of your life like most people won't, so that you can spend the rest of your life like most people can't.",
+    "author": "Unknown",
+    "tags": [
+      "entrepreneurship",
+      "sacrifice"
+    ]
+  },
+  {
+    "text": "If you're not living life on the edge, you're taking up too much space.",
+    "author": "Unknown",
+    "tags": [
+      "risk",
+      "living"
+    ]
+  },
+  {
+    "text": "Who Dares Wins!",
+    "author": "Unknown",
+    "tags": [
+      "courage",
+      "action"
+    ]
+  },
+  {
+    "text": "Ci velis pacem, para bellum! (If you want peace, prepare for war!)",
+    "author": "Unknown",
+    "tags": [
+      "war",
+      "preparation"
+    ]
+  },
+  {
+    "text": "If the wind will not serve, take to the oars.",
+    "author": "Unknown",
+    "tags": [
+      "perseverance",
+      "initiative"
+    ]
+  },
+  {
+    "text": "Ducere Exemplo (Lead by example)",
+    "author": "Unknown",
+    "tags": [
+      "leadership",
+      "example"
+    ]
+  },
+  {
+    "text": "Cow cow, we will bang the whole herd",
+    "author": "Unknown",
+    "tags": [
+      "determination"
+    ]
+  },
+  {
+    "text": "Acta Non Verba (Act, dont speak)",
+    "author": "Unknown",
+    "tags": [
+      "action",
+      "words"
+    ]
+  },
+  {
+    "text": "Dum spiro, spero (If I breath, I hope)",
+    "author": "Unknown",
+    "tags": [
+      "hope",
+      "perseverance"
+    ]
+  },
+  {
+    "text": "Good, then we will fight in the shade",
+    "author": "Unknown",
+    "tags": [
+      "courage",
+      "defiance"
+    ]
+  },
+  {
+    "text": "If in the cedars fell the flame, what will the mosses on the wall say?!",
+    "author": "Unknown",
+    "tags": [
+      "adversity",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Quis custodiet ipsos custodes? (Who will guard the guards)",
+    "author": "Unknown",
+    "tags": [
+      "power",
+      "accountability"
+    ]
+  },
+  {
+    "text": "Ars gratia artis (Art of art's sake)",
+    "author": "Unknown",
+    "tags": [
+      "art",
+      "purpose"
+    ]
+  },
+  {
+    "text": "When you try to make an impression, that's exactly the impression you make",
+    "author": "Unknown",
+    "tags": [
+      "authenticity",
+      "character"
+    ]
+  },
+  {
+    "text": "To say the right thing at the right time, you should be silent most of the time",
+    "author": "Unknown",
+    "tags": [
+      "silence",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "The darkest hour is just before the dawn",
+    "author": "Unknown",
+    "tags": [
+      "hope",
+      "adversity"
+    ]
+  },
+  {
+    "text": "Once you have accepted your flaws, no one can use them against you.",
+    "author": "Unknown",
+    "tags": [
+      "self-acceptance",
+      "strength"
+    ]
+  },
+  {
+    "text": "Latet enim veritas, sed nihil pretiosius veritate (Truth is hidden, but nothing is more beautiful than the truth)",
+    "author": "Unknown",
+    "tags": [
+      "truth",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "ex nihilo nihil fit - out of nothing comes nothing",
+    "author": "Unknown",
+    "tags": [
+      "effort",
+      "creation"
+    ]
+  },
+  {
+    "text": "Carpe Diem (Seize the day)",
+    "author": "Unknown",
+    "tags": [
+      "action",
+      "present"
+    ]
+  },
+  {
+    "text": "mens sana in corpore sano [a healthy mind in a healthy body]",
+    "author": "Unknown",
+    "tags": [
+      "health",
+      "balance"
+    ]
+  },
+  {
+    "text": "Beware of your thoughts, they become your words. Beware of your words, they become your actions. Beware of your actions, they become your habits. Beware of your habits, they become your character. Beware of your character, it becomes your destiny.",
+    "author": "Unknown",
+    "tags": [
+      "thoughts",
+      "destiny"
+    ]
+  },
+  {
+    "text": "A lot people are afraid of heights. Not me, I am afraid of widths.",
+    "author": "Steven Wright",
+    "tags": [
+      "humor"
+    ]
+  },
+  {
+    "text": "If you are in a spaceship that is traveling at the speed of light, and you turn on the headlights, does anything happen?",
+    "author": "Steven Wright",
+    "tags": [
+      "humor",
+      "science"
+    ]
+  },
+  {
+    "text": "It isn't what you have, or who you are, or where you are, or what you are doing that makes you happy or unhappy. It is what you think about.",
+    "author": "Dale Carnegie",
+    "tags": [
+      "happiness",
+      "mindset"
+    ]
+  },
+  {
+    "text": "When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us.",
+    "author": "Hellen Keller",
+    "tags": [
+      "opportunity",
+      "hope"
+    ]
+  },
+  {
+    "text": "The best and most beautiful things in the world cannot be seen or even touched. They must be felt with the heart.",
+    "author": "Hellen Keller",
+    "tags": [
+      "beauty",
+      "heart"
+    ]
+  },
+  {
+    "text": "Life is either a daring adventure, or nothing.",
+    "author": "Hellen Keller",
+    "tags": [
+      "courage",
+      "living"
+    ]
+  },
+  {
+    "text": "Never bend your head. Always hold it high. Look the world straight in the eye.",
+    "author": "Hellen Keller",
+    "tags": [
+      "confidence",
+      "dignity"
+    ]
+  },
+  {
+    "text": "The reason people find it so hard to be happy is that they always see the past better than it was, the present worse than it is, and the future less resolved than it will be.",
+    "author": "Marcel Pagnol",
+    "tags": [
+      "happiness",
+      "perspective"
+    ]
+  },
+  {
+    "text": "Never, never, never give up!",
+    "author": "Winston Churchill",
+    "tags": [
+      "perseverance",
+      "resilience"
+    ]
+  },
+  {
+    "text": "I am easily satisfied with the very best.",
+    "author": "Winston Churchill",
+    "tags": [
+      "excellence",
+      "standards"
+    ]
+  },
+  {
+    "text": "If you are going through hell, keep going.",
+    "author": "Winston Churchill",
+    "tags": [
+      "perseverance",
+      "adversity"
+    ]
+  },
+  {
+    "text": "The truth is incontrovertible, malice may attack it, ignorance may deride it, but in the end; there it is.",
+    "author": "Winston Churchill",
+    "tags": [
+      "truth"
+    ]
+  },
+  {
+    "text": "A love for tradition has never weakened a nation, indeed it has strengthened nations in their hour of peril.",
+    "author": "Winston Churchill",
+    "tags": [
+      "tradition",
+      "nation"
+    ]
+  },
+  {
+    "text": "All great things are simple, and many can be expressed in single words: freedom, justice, honor, duty, mercy, hope.",
+    "author": "Winston Churchill",
+    "tags": [
+      "simplicity",
+      "values"
+    ]
+  },
+  {
+    "text": "Although prepared for martyrdom, I preferred that it be postponed.",
+    "author": "Winston Churchill",
+    "tags": [
+      "courage",
+      "wit"
+    ]
+  },
+  {
+    "text": "However beautiful the strategy, you should occasionally look at the results.",
+    "author": "Winston Churchill",
+    "tags": [
+      "strategy",
+      "results"
+    ]
+  },
+  {
+    "text": "One ought never to turn one's back on a threatened danger and try to run away from it. If you do that, you will double the danger. But if you meet it promptly and without flinching, you will reduce the danger by half.",
+    "author": "Winston Churchill",
+    "tags": [
+      "courage",
+      "adversity"
+    ]
+  },
+  {
+    "text": "Success is the ability to go from one failure to another with no loss of enthusiasm.",
+    "author": "Winston Churchill",
+    "tags": [
+      "success",
+      "failure"
+    ]
+  },
+  {
+    "text": "The price of greatness is responsibility.",
+    "author": "Winston Churchill",
+    "tags": [
+      "greatness",
+      "responsibility"
+    ]
+  },
+  {
+    "text": "Men Occasionally Stumble Over the Truth, But They Pick Themselves Up and Hurry Off",
+    "author": "Winston Churchill",
+    "tags": [
+      "truth",
+      "wit"
+    ]
+  },
+  {
+    "text": "The best argument against democracy is a five-minute conversation with the average voter",
+    "author": "Winston Churchill",
+    "tags": [
+      "democracy",
+      "wit"
+    ]
+  },
+  {
+    "text": "Success is stumbling from failure to failure with no loss of enthusiasm.",
+    "author": "Winston Churchill",
+    "tags": [
+      "success",
+      "failure"
+    ]
+  },
+  {
+    "text": "You ask, what is our policy? I will say: It is to wage war, by sea, land and air, with all our might and with all the strength that God can give us; to wage war against a monstrous tyranny… That is our policy. You ask, what is our aim? I can answer in one word: victory; victory at all costs, victory in spite of all terror, victory, however long and hard the road may be…. –Winston Churchill, May 13, 1940",
+    "author": "Winston Churchill",
+    "tags": [
+      "war",
+      "victory",
+      "resolve"
+    ]
+  },
+  {
+    "text": "I can no longer obey; I have tasted command, and I cannot give it up",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "leadership",
+      "power"
+    ]
+  },
+  {
+    "text": "Take time to deliberate, but when the time for action has arrived, stop thinking and go in",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "action",
+      "decision"
+    ]
+  },
+  {
+    "text": "Throw off your worries when you throw off your clothes at night",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "worry",
+      "peace"
+    ]
+  },
+  {
+    "text": "As for me, to love you alone, to make you happy, to do nothing which would contradict your wishes, this is my destiny and the meaning of my life",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "love",
+      "devotion"
+    ]
+  },
+  {
+    "text": "I must see her and press her to my heart. I love her to the point of madness, and I cannot continue to be separated from her. If she no longer loved me, I would have nothing left to do on earth",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "love",
+      "longing"
+    ]
+  },
+  {
+    "text": "Never interrupt your enemy when he is making a mistake",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "strategy",
+      "war"
+    ]
+  },
+  {
+    "text": "Courage isn't having the strength to go on, it is going on when you don't have strength",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "courage",
+      "perseverance"
+    ]
+  },
+  {
+    "text": "History is a set of lies agreed upon",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "history",
+      "truth"
+    ]
+  },
+  {
+    "text": "Imagination governs the world",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "imagination",
+      "power"
+    ]
+  },
+  {
+    "text": "If you want a thing done well, do it yourself",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "self-reliance",
+      "work"
+    ]
+  },
+  {
+    "text": "Nothing is more difficult, and therefore more precious, than to be able to decide",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "decision",
+      "leadership"
+    ]
+  },
+  {
+    "text": "History is written by the winners",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "history",
+      "victory"
+    ]
+  },
+  {
+    "text": "Impossible is a word to be found only in the dictionary of fools",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "possibility",
+      "ambition"
+    ]
+  },
+  {
+    "text": "A leader is a dealer in hope",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "leadership",
+      "hope"
+    ]
+  },
+  {
+    "text": "Men are moved by two levers only: fear and self interest",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "human-nature",
+      "motivation"
+    ]
+  },
+  {
+    "text": "The world suffers a lot. Not because the violence of bad people. But because of the silence of good people",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "morality",
+      "courage"
+    ]
+  },
+  {
+    "text": "He who fears being conquered is sure of defeat",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "fear",
+      "defeat"
+    ]
+  },
+  {
+    "text": "The reason most people fail instead of succeed is they trade what they want most for what they want in the moment",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "discipline",
+      "success"
+    ]
+  },
+  {
+    "text": "Ten people who speak make more noise than ten thousand who are silent",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "voice",
+      "influence"
+    ]
+  },
+  {
+    "text": "Men are more easily governed through their vices than through their virtues",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "human-nature",
+      "power"
+    ]
+  },
+  {
+    "text": "Ability is of little account without opportunity",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "opportunity",
+      "ability"
+    ]
+  },
+  {
+    "text": "Music is what tells us that the human race is greater than we realize",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "music",
+      "humanity"
+    ]
+  },
+  {
+    "text": "Victory belongs to the most persevering",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "perseverance",
+      "victory"
+    ]
+  },
+  {
+    "text": "The surest way to remain poor is to be honest",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "wealth",
+      "cynicism"
+    ]
+  },
+  {
+    "text": "The greatest danger occurs at the moment of victory",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "victory",
+      "caution"
+    ]
+  },
+  {
+    "text": "The best cure for the body is a quiet mind",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "health",
+      "mind"
+    ]
+  },
+  {
+    "text": "Show me a family of readers, and I will show you who moves the world",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "reading",
+      "influence"
+    ]
+  },
+  {
+    "text": "A true man hates no one",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "character",
+      "compassion"
+    ]
+  },
+  {
+    "text": "A man will fight harder for his interests than for his rights",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "human-nature",
+      "motivation"
+    ]
+  },
+  {
+    "text": "A woman laughing, is a woman conquered",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "love",
+      "wit"
+    ]
+  },
+  {
+    "text": "The best way to keep one's word, is not to give it",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "promises",
+      "wit"
+    ]
+  },
+  {
+    "text": "You become strong by defying defeat and by turning failure into success",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "resilience",
+      "success"
+    ]
+  },
+  {
+    "text": "One should never forbid what one lacks the power to prevent",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "power",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Courage is like love; it must have hope for nourishment",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "courage",
+      "hope"
+    ]
+  },
+  {
+    "text": "The stupid speak of the past, the wise of the present, and fools of the future",
+    "author": "Napoleon Bonaparte",
+    "tags": [
+      "wisdom",
+      "time"
+    ]
+  },
+  {
+    "text": "The weak can never forgive. Forgiveness is the attribute of the strong.",
+    "author": "Mahatma Gandhi",
+    "tags": [
+      "forgiveness",
+      "strength"
+    ]
+  },
+  {
+    "text": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "author": "Mahatma Gandhi",
+    "tags": [
+      "life",
+      "learning"
+    ]
+  },
+  {
+    "text": "Once more unto the breach, dear friends, once more... In peace there's nothing so becomes a man As modest stillness and humility: But when the blast of war blows in our ears, Then imitate the action of the tiger; Stiffen the sinews, summon up the blood, Disguise fair nature with hard-favour'd rage; Then lend the eye a terrible aspect... Now set the teeth and stretch the nostril wide, Hold hard the breath and bend up every spirit To his full height. On, on, you noblest English.... Dishonour not your mothers; now attest That those whom you call'd fathers did beget you. Be copy now to men of grosser blood, And teach them how to war....(From Shakespeare's Henry V, Act III)",
+    "author": "William Shakespeare",
+    "tags": [
+      "war",
+      "courage"
+    ]
+  },
+  {
+    "text": "This story shall the good man teach his son... From this day to the ending of the world, But we in it shall be remember'd; We few, we happy few, we band of brothers; For he to-day that sheds his blood with me Shall be my brother; be he ne'er so vile, This day shall gentle his condition...(From Shakespeare's Henry V, 1598)",
+    "author": "William Shakespeare",
+    "tags": [
+      "brotherhood",
+      "war"
+    ]
+  },
+  {
+    "text": "Cowards die many times before their deaths; the valiant never taste death but once. (Julius Caesar)",
+    "author": "William Shakespeare",
+    "tags": [
+      "courage",
+      "death"
+    ]
+  },
+  {
+    "text": "For it was not into my ear you whispered, but into my heart. It was not my lips you kissed, but my soul.",
+    "author": "Judy Garland",
+    "tags": [
+      "love",
+      "soul"
+    ]
+  },
+  {
+    "text": "War is an ugly thing but not the ugliest of things; the decayed and degraded state of moral and patriotic feelings which thinks that nothing is worth war is much worse. A man who has nothing for which he is willing to fight, nothing which is more important than his own personal safety, is a miserable creature and has no chance of being free unless made and kept so by the exertions of better men than himself.",
+    "author": "John Stuart Mill",
+    "tags": [
+      "war",
+      "freedom",
+      "courage"
+    ]
+  },
+  {
+    "text": "People sleep peaceably in their beds at night only because rough men stand ready to do violence on their behalf.",
+    "author": "George Orwell",
+    "tags": [
+      "security",
+      "sacrifice"
+    ]
+  },
+  {
+    "text": "The further a society drifts from the truth the more it will hate those who speak it",
+    "author": "George Orwell",
+    "tags": [
+      "truth",
+      "society"
+    ]
+  },
+  {
+    "text": "Know your enemy and know yourself, and in a hundred battles you will never be in peril",
+    "author": "Sun Tzu",
+    "tags": [
+      "strategy",
+      "war"
+    ]
+  },
+  {
+    "text": "To win 100 battles is not the height of skill, to subdue the enemy without fighting is",
+    "author": "Sun Tzu",
+    "tags": [
+      "strategy",
+      "war"
+    ]
+  },
+  {
+    "text": "Avoid what is strong, attack what is weak",
+    "author": "Sun Tzu",
+    "tags": [
+      "strategy",
+      "war"
+    ]
+  },
+  {
+    "text": "Let your plans be dark and as impenetrable as night, and when you move, fall like a thunderbolt.",
+    "author": "Sun Tzu",
+    "tags": [
+      "strategy",
+      "war"
+    ]
+  },
+  {
+    "text": "It is more important to outhink your enemy than to outfight him",
+    "author": "Sun Tzu",
+    "tags": [
+      "strategy",
+      "intellect"
+    ]
+  },
+  {
+    "text": "In war, numbers alone confer no advantage, do not advance relying on sheer military power",
+    "author": "Sun Tzu",
+    "tags": [
+      "war",
+      "strategy"
+    ]
+  },
+  {
+    "text": "Let your plans be as dark as night - then strike like a thunderbolt",
+    "author": "Sun Tzu",
+    "tags": [
+      "strategy",
+      "war"
+    ]
+  },
+  {
+    "text": "In battle, use a direct attack to engage and an indirect attack to win",
+    "author": "Sun Tzu",
+    "tags": [
+      "strategy",
+      "war"
+    ]
+  },
+  {
+    "text": "There are five fundamental factors for success in war - weather, terrain, leadership, military doctrine and most importantly, moral influence",
+    "author": "Sun Tzu",
+    "tags": [
+      "war",
+      "leadership"
+    ]
+  },
+  {
+    "text": "To move your enemy, entice him with something he is certain to take",
+    "author": "Sun Tzu",
+    "tags": [
+      "strategy",
+      "deception"
+    ]
+  },
+  {
+    "text": "Put the army in the face of death, where there is no escape, and they will not flee or be afraid and there is nothing they cannot achieve",
+    "author": "Sun Tzu",
+    "tags": [
+      "war",
+      "courage"
+    ]
+  },
+  {
+    "text": "All warfare is deception",
+    "author": "Sun Tzu",
+    "tags": [
+      "war",
+      "deception"
+    ]
+  },
+  {
+    "text": "It is essential to seek out enemy agents who have come to spy against you and bribe them to serve you",
+    "author": "Sun Tzu",
+    "tags": [
+      "war",
+      "espionage"
+    ]
+  },
+  {
+    "text": "When a falcon strike breaks the body of it's prey, it is because of timing - when torrential water toss boulders, it is because of momentum",
+    "author": "Sun Tzu",
+    "tags": [
+      "timing",
+      "momentum"
+    ]
+  },
+  {
+    "text": "It is essential for victory that generals are unconstrained by their leaders",
+    "author": "Sun Tzu",
+    "tags": [
+      "leadership",
+      "war"
+    ]
+  },
+  {
+    "text": "Make your enemy prepare on his left and he will be weak on his right",
+    "author": "Sun Tzu",
+    "tags": [
+      "strategy",
+      "deception"
+    ]
+  },
+  {
+    "text": "The winning army realizes the conditions for victory first, then fights - the loosing army fights first, then seeks victory",
+    "author": "Sun Tzu",
+    "tags": [
+      "strategy",
+      "victory"
+    ]
+  },
+  {
+    "text": "No nation have ever benefited from prolonged war",
+    "author": "Sun Tzu",
+    "tags": [
+      "war",
+      "nation"
+    ]
+  },
+  {
+    "text": "Those skilled in war bring the enemy to the field of battle - they are not brought by him",
+    "author": "Sun Tzu",
+    "tags": [
+      "strategy",
+      "war"
+    ]
+  },
+  {
+    "text": "Move only when you see an advantage and there is something to gain, only fight if a position is critical",
+    "author": "Sun Tzu",
+    "tags": [
+      "strategy",
+      "war"
+    ]
+  },
+  {
+    "text": "When the enemy occupies high ground, do not confront him, if he attacks downhill, do not oppose him",
+    "author": "Sun Tzu",
+    "tags": [
+      "strategy",
+      "war"
+    ]
+  },
+  {
+    "text": "There are some armies that should not be fought - some ground that should not be contested",
+    "author": "Sun Tzu",
+    "tags": [
+      "strategy",
+      "war"
+    ]
+  },
+  {
+    "text": "When troops flee, are insubordinate, collapse or are routed in battle - it is the fault of the general",
+    "author": "Sun Tzu",
+    "tags": [
+      "leadership",
+      "responsibility"
+    ]
+  },
+  {
+    "text": "Failure is simply the opportunity to begin again, this time more intelligently.",
+    "author": "Henry Ford",
+    "tags": [
+      "failure",
+      "opportunity"
+    ]
+  },
+  {
+    "text": "A business that makes nothing but money is a poor business.",
+    "author": "Henry Ford",
+    "tags": [
+      "business",
+      "values"
+    ]
+  },
+  {
+    "text": "Whether you think you can or you can't, you're right.",
+    "author": "Henry Ford",
+    "tags": [
+      "mindset",
+      "belief"
+    ]
+  },
+  {
+    "text": "The unspoken word never does harm.",
+    "author": "Kossuth",
+    "tags": [
+      "silence",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "A bird that you set free may be caught again, but a word that escapes your lips will not return.",
+    "author": "Jewish Proverb",
+    "tags": [
+      "words",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "First mend yourself, and then mend others.",
+    "author": "Jewish Proverb",
+    "tags": [
+      "self-improvement",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "We don't see things the way they are. We see them the way WE are - Talmud.",
+    "author": "Jewish Proverb",
+    "tags": [
+      "perception",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Beginning is easy - Continuing is hard.",
+    "author": "Japanese Proverb",
+    "tags": [
+      "perseverance",
+      "beginnings"
+    ]
+  },
+  {
+    "text": "When the character of a man is not clear to you, look at his friends.",
+    "author": "Japanese Proverb",
+    "tags": [
+      "character",
+      "friendship"
+    ]
+  },
+  {
+    "text": "One kind word can warm three winter months.",
+    "author": "Japanese Proverb",
+    "tags": [
+      "kindness",
+      "words"
+    ]
+  },
+  {
+    "text": "Fall down seven times, get up eight.",
+    "author": "Japanese Proverb",
+    "tags": [
+      "resilience",
+      "perseverance"
+    ]
+  },
+  {
+    "text": "Associate yourself with men of good quality if you esteem your own reputation for 'tis better to be alone than in bad company.",
+    "author": "George Washington",
+    "tags": [
+      "reputation",
+      "friendship"
+    ]
+  },
+  {
+    "text": "Be courteous to all, but intimate with few; and let those few be well tried before you give them your confidence.",
+    "author": "George Washington",
+    "tags": [
+      "friendship",
+      "trust"
+    ]
+  },
+  {
+    "text": "It's wonderful what we can do if we're always doing.",
+    "author": "George Washington",
+    "tags": [
+      "action",
+      "productivity"
+    ]
+  },
+  {
+    "text": "It is better to offer no excuse than a bad one.",
+    "author": "George Washington",
+    "tags": [
+      "accountability",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "If you don't like something, change it. If you can't change it, change your attitude. Don't complain.",
+    "author": "Maya Angelou",
+    "tags": [
+      "attitude",
+      "change"
+    ]
+  },
+  {
+    "text": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+    "author": "Maya Angelou",
+    "tags": [
+      "relationships",
+      "empathy"
+    ]
+  },
+  {
+    "text": "I can be changed by what happens to me. But I refuse to be reduced by it.",
+    "author": "Maya Angelou",
+    "tags": [
+      "resilience",
+      "adversity"
+    ]
+  },
+  {
+    "text": "My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style",
+    "author": "Maya Angelou",
+    "tags": [
+      "purpose",
+      "passion"
+    ]
+  },
+  {
+    "text": "Courage: the most important of all the virtues because without courage, you can't practice any other virtue consistently.",
+    "author": "Maya Angelou",
+    "tags": [
+      "courage",
+      "virtue"
+    ]
+  },
+  {
+    "text": "Life's a bitch. You've got to go out and kick ass.",
+    "author": "Maya Angelou",
+    "tags": [
+      "action",
+      "resilience"
+    ]
+  },
+  {
+    "text": "If I am not good to myself, how can I expect anyone else to be good to me?",
+    "author": "Maya Angelou",
+    "tags": [
+      "self-love",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Be a rainbow in someone else's cloud.",
+    "author": "Maya Angelou",
+    "tags": [
+      "kindness",
+      "hope"
+    ]
+  },
+  {
+    "text": "Nothing can dim the light which shines from within.",
+    "author": "Maya Angelou",
+    "tags": [
+      "inner-strength",
+      "hope"
+    ]
+  },
+  {
+    "text": "Never make someone a priority when all you are to them is an option.",
+    "author": "Maya Angelou",
+    "tags": [
+      "relationships",
+      "self-worth"
+    ]
+  },
+  {
+    "text": "Take the first step in faith. You don't have to see the whole staircase, just take the first step.",
+    "author": "Martin Luther King Jr.",
+    "tags": [
+      "faith",
+      "action"
+    ]
+  },
+  {
+    "text": "A man who won't die for something is not fit to live.",
+    "author": "Martin Luther King Jr.",
+    "tags": [
+      "conviction",
+      "purpose"
+    ]
+  },
+  {
+    "text": "A man can't ride your back unless it's bent.",
+    "author": "Martin Luther King Jr.",
+    "tags": [
+      "dignity",
+      "resistance"
+    ]
+  },
+  {
+    "text": "A genuine leader is not a searcher for consensus but a molder of consensus.",
+    "author": "Martin Luther King Jr.",
+    "tags": [
+      "leadership",
+      "conviction"
+    ]
+  },
+  {
+    "text": "Expect problems and eat them for breakfast.",
+    "author": "Alfred A. Montapert",
+    "tags": [
+      "adversity",
+      "resilience"
+    ]
+  },
+  {
+    "text": "Be polite to all, but intimate with few.",
+    "author": "Thomas Jefferson",
+    "tags": [
+      "friendship",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "If you want something you've never had, you must be willing to do something you've never done.",
+    "author": "Thomas Jefferson",
+    "tags": [
+      "growth",
+      "action"
+    ]
+  },
+  {
+    "text": "Be gentle to all and stern with yourself.",
+    "author": "Saint Teresa of Avila",
+    "tags": [
+      "discipline",
+      "compassion"
+    ]
+  },
+  {
+    "text": "Life is either a daring adventure or nothing.",
+    "author": "Hellen Keller",
+    "tags": [
+      "adventure",
+      "courage"
+    ]
+  },
+  {
+    "text": "Deep within man dwell those slumbering powers, powers that would astonish him, that he never dreamed of possesing, forces that would revolutionize his life if arroused and put into action",
+    "author": "Orisen Sweat Martin",
+    "tags": [
+      "potential",
+      "action"
+    ]
+  },
+  {
+    "text": "We will either find a way or make one",
+    "author": "Hannibal",
+    "tags": [
+      "determination",
+      "perseverance"
+    ]
+  },
+  {
+    "text": "Concerning all acts of initiative and creation there is one elemntary truth: that the moment one defiantely commits ones-self, than providence moves too",
+    "author": "Johann Wolfgang von Goethe",
+    "tags": [
+      "commitment",
+      "action"
+    ]
+  },
+  {
+    "text": "We are what we think. All that we are arises with our thoughts. With our thoughts we make our world.",
+    "author": "Buddha",
+    "tags": [
+      "mindset",
+      "thoughts"
+    ]
+  },
+  {
+    "text": "Holding onto anger is like drinking poison and expecting the other person to die",
+    "author": "Buddha",
+    "tags": [
+      "anger",
+      "forgiveness"
+    ]
+  },
+  {
+    "text": "We are what and where we are because we have first imagined it",
+    "author": "Donald Curtis",
+    "tags": [
+      "imagination",
+      "mindset"
+    ]
+  },
+  {
+    "text": "A toad in a well can only see part of the sky. once it climbs up it will be able to see it all",
+    "author": "Chinese Proverb",
+    "tags": [
+      "perspective",
+      "growth"
+    ]
+  },
+  {
+    "text": "You're time is limited, so don't waste it living someone else's life",
+    "author": "Steve Jobs",
+    "tags": [
+      "time",
+      "authenticity"
+    ]
+  },
+  {
+    "text": "When you grow up you tend to get told the world is the way it is and you're life is just to live your life inside the world. Try not to bash into the walls too much. Try to have a nice family, have fun, save a little money. That's a very limited life. Life can be much broader once you discover one simple fact: Everything around you that you call life was made up by people that were no smarter than you and you can change it, you can influence it, you can build your own things that other people can use. Once you learn that, you'll never be the same again.",
+    "author": "Steve Jobs",
+    "tags": [
+      "change",
+      "life",
+      "courage"
+    ]
+  },
+  {
+    "text": "Remembering that I'll be dead soon is the most important tool I've ever encountered to help me make the big choices in life. Because almost everything — all external expectations, all pride, all fear of embarrassment or failure — these things just fall away in the face of death, leaving only what is truly important. Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.",
+    "author": "Steve Jobs",
+    "tags": [
+      "death",
+      "mortality",
+      "courage"
+    ]
+  },
+  {
+    "text": "Here's to the crazy ones, the misfits, the rebels, the troublemakers, the round pegs in the square holes... the ones who see things differently -- they're not fond of rules... You can quote them, disagree with them, glorify or vilify them, but the only thing you can't do is ignore them because they change things... they push the human race forward, and while some may see them as the crazy ones, we see genius, because the ones who are crazy enough to think that they can change the world, are the ones who do.",
+    "author": "Steve Jobs",
+    "tags": [
+      "change",
+      "genius",
+      "rebellion"
+    ]
+  },
+  {
+    "text": "There needs to be someone who is the keeper and re-iterator of the vision, because there is a ton of work to do - when you need to walk a 1000 miles and you take the first step it looks like a long way, it really helps if there is someone that says we're one step closer, the goal is still there - in a 1001 different ways the vision needs to be reiterated",
+    "author": "Steve Jobs",
+    "tags": [
+      "vision",
+      "leadership",
+      "perseverance"
+    ]
+  },
+  {
+    "text": "The only thing you really have in your life is time, and if you invest that time in yourself, to have great experiences that are going to enrich you, then you can't possibly loose - so I always advise to people: don't wait! Do something when you're young, when you have nothing to loose..",
+    "author": "Steve Jobs",
+    "tags": [
+      "time",
+      "action",
+      "youth"
+    ]
+  },
+  {
+    "text": "Sometimes life's gonna hit you in the head with a brick, don't lose faith. I'm convinced that the only thing that kept me going is that I love what I did - you've got to find what you love, and that is true for work as it is for your lovers, your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work, and the only way to do great work, is to love what you do. If you haven't found it yet, keep looking, and don't settle, as with all matters of the heart, you'll know when you find it - and like any great relationship, it just gets better and better, as the years roll on - so keep looking, don't settle!",
+    "author": "Steve Jobs",
+    "tags": [
+      "passion",
+      "work",
+      "perseverance"
+    ]
+  },
+  {
+    "text": "You can't put a limit on anything. The more you dream the farther you get",
+    "author": "Michael Phelps",
+    "tags": [
+      "dreams",
+      "ambition"
+    ]
+  },
+  {
+    "text": "The greatest pleasure in life, is doing the things people say we cannot do.",
+    "author": "Walter Bagehot",
+    "tags": [
+      "achievement",
+      "defiance"
+    ]
+  },
+  {
+    "text": "Speak softly and carry a big stick; you will go far.",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "power",
+      "restraint"
+    ]
+  },
+  {
+    "text": "Do what you can, with what you have, where you are.",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "action",
+      "resourcefulness"
+    ]
+  },
+  {
+    "text": "Keep your eyes on the stars, and your feet on the ground.",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "ambition",
+      "pragmatism"
+    ]
+  },
+  {
+    "text": "It is hard to fail, but it is worse never to have tried to succeed.",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "failure",
+      "courage"
+    ]
+  },
+  {
+    "text": "Believe you can, and you're halfway there",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "belief",
+      "confidence"
+    ]
+  },
+  {
+    "text": "Nothing in this world is worth having or worth doing unless it means effort, pain, difficulty",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "effort",
+      "adversity"
+    ]
+  },
+  {
+    "text": "I don't pity any man who does hard work worth doing. I admire him. I pity the creature who does not work, at whichever end of the social scale he may regard himself as being",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "work",
+      "respect"
+    ]
+  },
+  {
+    "text": "Whenever you are asked if you can do a job, tell 'em - 'certainly I can!' then get busy and find out how to do it",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "confidence",
+      "action"
+    ]
+  },
+  {
+    "text": "Knowing what's right doesn't mean much unless you do what's right",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "integrity",
+      "action"
+    ]
+  },
+  {
+    "text": "With self-discipline, almost anything is possible",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "discipline",
+      "possibility"
+    ]
+  },
+  {
+    "text": "Big jobs usually go to the men who prove their ability to outgrow small ones",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "growth",
+      "ambition"
+    ]
+  },
+  {
+    "text": "There is only one quality worse than hardness of heart and that is softness of head",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "character",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Courage is not having the strength to go on, it is going on when you don't have the strength",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "courage",
+      "perseverance"
+    ]
+  },
+  {
+    "text": "In any moment of decision the best thing you can do is the right thing, the next best thing is the wrong thing, and the worst thing you can do is nothing",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "decision",
+      "action"
+    ]
+  },
+  {
+    "text": "Honesty first, then courage, then brains - and all three are indispensable",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "honesty",
+      "courage",
+      "character"
+    ]
+  },
+  {
+    "text": "The only man who never makes mistakes, is the man who never does anything",
+    "author": "Theodore Roosevelt",
+    "tags": [
+      "mistakes",
+      "action"
+    ]
+  },
+  {
+    "text": "A man of courage is also full of faith.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "courage",
+      "faith"
+    ]
+  },
+  {
+    "text": "A man's own manner and character is what most becomes him.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "character"
+    ]
+  },
+  {
+    "text": "Ability without honor is useless.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "honor",
+      "ability"
+    ]
+  },
+  {
+    "text": "Any man is liable to err, only a fool persists in error.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "mistakes",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Freedom is a possession of inestimable value.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "freedom"
+    ]
+  },
+  {
+    "text": "He does not seem to me to be a free man who does not sometimes do nothing.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "freedom",
+      "rest"
+    ]
+  },
+  {
+    "text": "If you pursue good with labor, the labor passes away but the good remains; if you pursue evil with pleasure, the pleasure passes away and the evil remains.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "virtue",
+      "consequences"
+    ]
+  },
+  {
+    "text": "In a disordered mind, as in a disordered body, soundness of health is impossible.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "mind",
+      "health"
+    ]
+  },
+  {
+    "text": "It is the peculiar quality of a fool to perceive the faults of others and to forget his own.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "self-awareness",
+      "folly"
+    ]
+  },
+  {
+    "text": "Laws are silent in time of war.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "war",
+      "law"
+    ]
+  },
+  {
+    "text": "Never injure a friend, even in jest.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "friendship"
+    ]
+  },
+  {
+    "text": "Nature has planted in our minds an insatiable longing to see the truth.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "truth",
+      "curiosity"
+    ]
+  },
+  {
+    "text": "No sane man will dance.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "humor",
+      "reason"
+    ]
+  },
+  {
+    "text": "The greater the difficulty, the greater the glory.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "difficulty",
+      "glory"
+    ]
+  },
+  {
+    "text": "The greatest pleasures are only narrowly separated from disgust.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "pleasure",
+      "moderation"
+    ]
+  },
+  {
+    "text": "The higher we are placed, the more humbly we should walk.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "humility",
+      "power"
+    ]
+  },
+  {
+    "text": "The rule of friendship means there should be mutual sympathy between them, each supplying what the other lacks and trying to benefit the other, always using friendly and sincere words.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "friendship",
+      "reciprocity"
+    ]
+  },
+  {
+    "text": "The wise are instructed by reason, average minds by experience, the stupid by necessity and the brute by instinct.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "wisdom",
+      "learning"
+    ]
+  },
+  {
+    "text": "Those wars are unjust which are undertaken without provocation. For only a war waged for revenge or defense can be just.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "war",
+      "justice"
+    ]
+  },
+  {
+    "text": "Thou shouldst eat to live; not live to eat.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "moderation",
+      "life"
+    ]
+  },
+  {
+    "text": "To be ignorant of what occurred before you were born is to remain always a child.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "history",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "What is permissible is not always honorable.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "honor",
+      "ethics"
+    ]
+  },
+  {
+    "text": "What one has, one ought to use: and whatever he does he should do with all his might.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "effort",
+      "action"
+    ]
+  },
+  {
+    "text": "Whatever you do, do with all your might.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "effort",
+      "commitment"
+    ]
+  },
+  {
+    "text": "When you are aspiring to the highest place, it is honorable to reach the second or even the third rank.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "ambition",
+      "honor"
+    ]
+  },
+  {
+    "text": "While there's life, there's hope.",
+    "author": "Marcus Tullius Cicero",
+    "tags": [
+      "hope",
+      "life"
+    ]
+  },
+  {
+    "text": "A pint of sweat saves a gallon of blood.",
+    "author": "George S. Patton",
+    "tags": [
+      "preparation",
+      "war"
+    ]
+  },
+  {
+    "text": "Accept the challenges so that you can feel the exhilaration of victory.",
+    "author": "George S. Patton",
+    "tags": [
+      "challenge",
+      "victory"
+    ]
+  },
+  {
+    "text": "Always do everything you ask of those you command.",
+    "author": "George S. Patton",
+    "tags": [
+      "leadership",
+      "example"
+    ]
+  },
+  {
+    "text": "Better to fight for something than live for nothing.",
+    "author": "George S. Patton",
+    "tags": [
+      "purpose",
+      "courage"
+    ]
+  },
+  {
+    "text": "Don't tell people how to do things, tell them what to do and let them surprise you with their results.",
+    "author": "George S. Patton",
+    "tags": [
+      "leadership",
+      "delegation"
+    ]
+  },
+  {
+    "text": "I don't measure a man's success by how high he climbs but how high he bounces when he hits bottom.",
+    "author": "George S. Patton",
+    "tags": [
+      "resilience",
+      "success"
+    ]
+  },
+  {
+    "text": "Nobody ever defended anything successfully, there is only attack and attack and attack some more.",
+    "author": "George S. Patton",
+    "tags": [
+      "war",
+      "offense"
+    ]
+  },
+  {
+    "text": "The object of war is not to die for your country but to make the other bastard die for his.",
+    "author": "George S. Patton",
+    "tags": [
+      "war",
+      "strategy"
+    ]
+  },
+  {
+    "text": "We herd sheep, we drive cattle, we lead people. Lead me, follow me, or get out of my way.",
+    "author": "George S. Patton",
+    "tags": [
+      "leadership",
+      "action"
+    ]
+  },
+  {
+    "text": "Fast is fine, but accuracy is everything.",
+    "author": "Xenophon",
+    "tags": [
+      "precision",
+      "skill"
+    ]
+  },
+  {
+    "text": "The true test of a leader is whether his followers will adhere to his cause from their own volition, enduring the most arduous hardships without being forced to do so, and remaining steadfast in the moments of greatest peril.",
+    "author": "Xenophon",
+    "tags": [
+      "leadership",
+      "loyalty"
+    ]
+  },
+  {
+    "text": "You should examine yourself daily. If you find faults, you should correct them. When you find none, you should try even harder.",
+    "author": "Xi Zhi",
+    "tags": [
+      "self-improvement",
+      "discipline"
+    ]
+  },
+  {
+    "text": "Life is a gift. It gives us the opportunity to give by becoming more.",
+    "author": "Tony Robbins",
+    "tags": [
+      "life",
+      "growth"
+    ]
+  },
+  {
+    "text": "Live with passion!",
+    "author": "Tony Robbins",
+    "tags": [
+      "passion"
+    ]
+  },
+  {
+    "text": "If you keep doing the same things, you will keep getting the same results.",
+    "author": "Tony Robbins",
+    "tags": [
+      "change",
+      "results"
+    ]
+  },
+  {
+    "text": "Courage is grace under pressure.",
+    "author": "Ernest Hemingway",
+    "tags": [
+      "courage",
+      "grace"
+    ]
+  },
+  {
+    "text": "About morals, I know only that what is moral is what you feel good after and what is immoral is what you feel bad after.",
+    "author": "Ernest Hemingway",
+    "tags": [
+      "morality",
+      "conscience"
+    ]
+  },
+  {
+    "text": "Never mistake motion for action.",
+    "author": "Ernest Hemingway",
+    "tags": [
+      "action",
+      "purpose"
+    ]
+  },
+  {
+    "text": "The man who has begun to live more seriously within begins to live more simply without.",
+    "author": "Ernest Hemingway",
+    "tags": [
+      "simplicity",
+      "inner-life"
+    ]
+  },
+  {
+    "text": "The shortest answer is doing the thing.",
+    "author": "Ernest Hemingway",
+    "tags": [
+      "action"
+    ]
+  },
+  {
+    "text": "There is no lonelier man in death, except the suicide, than that man who has lived many years with a good wife and then outlived her. If two people love each other there can be no happy end to it.",
+    "author": "Ernest Hemingway",
+    "tags": [
+      "love",
+      "loss",
+      "death"
+    ]
+  },
+  {
+    "text": "There is no rule on how to write. Sometimes it comes easily and perfectly; sometimes it's like drilling rock and then blasting it out with charges.",
+    "author": "Ernest Hemingway",
+    "tags": [
+      "writing",
+      "craft"
+    ]
+  },
+  {
+    "text": "There's no one thing that is true. They're all true.",
+    "author": "Ernest Hemingway",
+    "tags": [
+      "truth",
+      "perspective"
+    ]
+  },
+  {
+    "text": "They wrote in the old days that it is sweet and fitting to die for one's country. But in modern war, there is nothing sweet nor fitting in your dying. You will die like a dog for no good reason.",
+    "author": "Ernest Hemingway",
+    "tags": [
+      "war",
+      "death"
+    ]
+  },
+  {
+    "text": "When people talk, listen completely. Most people never listen.",
+    "author": "Ernest Hemingway",
+    "tags": [
+      "listening",
+      "attention"
+    ]
+  },
+  {
+    "text": "When writing a novel a writer should create living people; people not characters. A character is a caricature.",
+    "author": "Ernest Hemingway",
+    "tags": [
+      "writing",
+      "craft"
+    ]
+  },
+  {
+    "text": "Before I speak, I have something important to say.",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "wit"
+    ]
+  },
+  {
+    "text": "From the moment I picked your book up until I laid it down, I was convulsed with laughter. Someday I intend reading it.",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "wit"
+    ]
+  },
+  {
+    "text": "I don't care to belong to a club that accepts people like me as members.",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "wit"
+    ]
+  },
+  {
+    "text": "I have had a perfectly wonderful evening, but this wasn't it.",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "wit"
+    ]
+  },
+  {
+    "text": "I intend to live forever, or die trying.",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "life"
+    ]
+  },
+  {
+    "text": "I never forget a face, but in your case I'll be glad to make an exception.",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "wit"
+    ]
+  },
+  {
+    "text": "I worked my way up from nothing to a state of extreme poverty.",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "wit"
+    ]
+  },
+  {
+    "text": "If I held you any closer I would be on the other side of you.",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "wit"
+    ]
+  },
+  {
+    "text": "Those are my principles, and if you don't like them... well, I have others.",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "principles"
+    ]
+  },
+  {
+    "text": "Who are you going to believe, me or your own eyes?",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "wit"
+    ]
+  },
+  {
+    "text": "Wives are people who feel they don't dance enough.",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "marriage"
+    ]
+  },
+  {
+    "text": "Die, my dear? Why that's the last thing I'll do!",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "wit"
+    ]
+  },
+  {
+    "text": "Marriage is the chief cause of divorce.",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "marriage"
+    ]
+  },
+  {
+    "text": "I wish you'd keep my hands to yourself.",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "wit"
+    ]
+  },
+  {
+    "text": "Here's to our wives and girlfriends...may they never meet!",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "marriage"
+    ]
+  },
+  {
+    "text": "Marriage is a wonderful institution...but who wants to live in an institution?",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "marriage"
+    ]
+  },
+  {
+    "text": "I was just whispering in her mouth",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "wit"
+    ]
+  },
+  {
+    "text": "Catch a man a fish, and you can sell it to him. Teach a man to fish, and you ruin a wonderful business opportunity.",
+    "author": "Groucho Marx",
+    "tags": [
+      "humor",
+      "business"
+    ]
+  },
+  {
+    "text": "No enterprise is more likely to succeed than one concealed from the enemy until it is ripe for execution.",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "strategy",
+      "secrecy"
+    ]
+  },
+  {
+    "text": "Entrepreneurs are simply those who understand that there is little difference between obstacle and opportunity and are able to turn both to their advantage.",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "opportunity",
+      "entrepreneurship"
+    ]
+  },
+  {
+    "text": "The more sand has escaped from the hourglass of our life, the clearer we should see through it.",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "time",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Before all else, be armed.",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "preparation",
+      "strength"
+    ]
+  },
+  {
+    "text": "If an injury has to be done to a man it should be so severe that his vengeance need not be feared.",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "power",
+      "strategy"
+    ]
+  },
+  {
+    "text": "The first method for estimating the intelligence of a ruler is to look at the men he has around him.",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "leadership",
+      "judgment"
+    ]
+  },
+  {
+    "text": "It is not titles that honor men, but men that honor titles.",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "honor",
+      "character"
+    ]
+  },
+  {
+    "text": "Whosoever desires constant success must change his conduct with the times.",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "adaptability",
+      "success"
+    ]
+  },
+  {
+    "text": "Never was anything great achieved without danger.",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "risk",
+      "greatness"
+    ]
+  },
+  {
+    "text": "Men rise from one ambition to another: first, they seek to secure themselves against attack, and then they attack others.",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "ambition",
+      "power"
+    ]
+  },
+  {
+    "text": "A wise man will see to it that his acts always seem voluntary and not done by compulsion, however much he may be compelled by necessity.",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "wisdom",
+      "perception"
+    ]
+  },
+  {
+    "text": "A wise man ought always to follow the paths beaten by great men, and to imitate those who have been supreme, so that if his ability does not equal theirs, at least it will savor of it. Let him act like the clever archers who, designing to hit the mark which yet appears too far distant, and knowing the limits to which the strength of their bow attains, take aim much higher than the mark, not to reach by their strength or arrow to so great a height, but to be able with the aid of so high an aim to hit the mark they wish to reach",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "ambition",
+      "aspiration",
+      "wisdom"
+    ]
+  },
+  {
+    "text": "Never attempt to win by force, what can be won by deception",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "strategy",
+      "deception"
+    ]
+  },
+  {
+    "text": "Men are driven by two principal impulses, either by love or by fear",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "human-nature",
+      "motivation"
+    ]
+  },
+  {
+    "text": "Where the willingness is great, the difficulties cannot be great",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "will",
+      "determination"
+    ]
+  },
+  {
+    "text": "Whosoever desires constant success must change with the times",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "adaptability",
+      "success"
+    ]
+  },
+  {
+    "text": "Therefore, it is necessary to be a fox to discover the snares and a lion to terrify the wolves",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "strategy",
+      "cunning"
+    ]
+  },
+  {
+    "text": "There is no avoiding war, it can only be postponed to the advantage of your enemy",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "war",
+      "strategy"
+    ]
+  },
+  {
+    "text": "It is better to act and repent than not to act and regret",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "action",
+      "regret"
+    ]
+  },
+  {
+    "text": "Nature creates few men brave, industry and training makes many",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "courage",
+      "training"
+    ]
+  },
+  {
+    "text": "One should never fall in the belief that you can find someone to pick you up",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "self-reliance"
+    ]
+  },
+  {
+    "text": "He who is highly esteemed is not easily conspired against",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "reputation",
+      "power"
+    ]
+  },
+  {
+    "text": "Men intrinsically do not trust new things that they have not experienced themselves",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "human-nature",
+      "trust"
+    ]
+  },
+  {
+    "text": "It is a common fault of men not to reckon on storms in fair weather",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "foresight",
+      "preparation"
+    ]
+  },
+  {
+    "text": "Every one around will envy you if you tell the truth",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "truth",
+      "envy"
+    ]
+  },
+  {
+    "text": "Men will not look at things as they really are, but as they wish them to be - and are ruined",
+    "author": "Niccolo Machiavelli",
+    "tags": [
+      "delusion",
+      "reality"
+    ]
+  },
+  {
+    "text": "Life isn't about waiting for the storm to pass...It's about learning to dance in the rain",
+    "author": "Vivian Green",
+    "tags": [
+      "resilience",
+      "adversity"
+    ]
+  },
+  {
+    "text": "Of course motivation is not permanent. But then, neither is bathing; but it is something you should do on a regular basis.",
+    "author": "Zig Ziglar",
+    "tags": [
+      "motivation",
+      "consistency"
+    ]
+  },
+  {
+    "text": "I'm no genius. I'm smart in spots—but I stay around those spots.",
+    "author": "Tom Watson",
+    "tags": [
+      "self-awareness",
+      "focus"
+    ]
+  },
+  {
+    "text": "Theoretically speaking everything should be ok, but sadly we don't live in the theoretical world",
+    "author": "Ohad Benita",
+    "tags": [
+      "reality",
+      "humor"
+    ]
+  }
 ]
