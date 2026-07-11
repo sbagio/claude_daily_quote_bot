@@ -1,0 +1,17 @@
+[
+  { "text": "The only way to do great work is to love what you do.", "author": "Steve Jobs", "tags": ["work", "passion"] },
+  { "text": "Simplicity is the ultimate sophistication.", "author": "Leonardo da Vinci", "tags": ["design", "simplicity"] },
+  { "text": "Whether you think you can or you think you can't, you're right.", "author": "Henry Ford", "tags": ["mindset"] },
+  { "text": "The best way to predict the future is to invent it.", "author": "Alan Kay", "tags": ["future", "creativity"] },
+  { "text": "Premature optimization is the root of all evil.", "author": "Donald Knuth", "tags": ["engineering"] },
+  { "text": "It always seems impossible until it's done.", "author": "Nelson Mandela", "tags": ["perseverance"] },
+  { "text": "Programs must be written for people to read, and only incidentally for machines to execute.", "author": "Harold Abelson", "tags": ["engineering"] },
+  { "text": "Discipline is choosing between what you want now and what you want most.", "author": "Abraham Lincoln", "tags": ["discipline"] },
+  { "text": "The obstacle is the way.", "author": "Marcus Aurelius", "tags": ["stoicism"] },
+  { "text": "Make it work, make it right, make it fast.", "author": "Kent Beck", "tags": ["engineering"] },
+  { "text": "You do not rise to the level of your goals. You fall to the level of your systems.", "author": "James Clear", "tags": ["habits"] },
+  { "text": "Everything should be made as simple as possible, but not simpler.", "author": "Albert Einstein", "tags": ["simplicity"] },
+  { "text": "The secret of getting ahead is getting started.", "author": "Mark Twain", "tags": ["action"] },
+  { "text": "What we do now echoes in eternity.", "author": "Marcus Aurelius", "tags": ["stoicism"] },
+  { "text": "Done is better than perfect.", "author": "Sheryl Sandberg", "tags": ["action"] }
+]
