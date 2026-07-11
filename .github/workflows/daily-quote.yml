@@ -2,9 +2,9 @@ name: Daily Quote
 
 on:
   schedule:
-    # 06:00 UTC. Adjust to your timezone — e.g. for Israel (UTC+3 IDT) use "0 5 * * *"
-    # for 08:00 local. Note: cron is fixed-offset UTC, so DST shifts the local time by 1h.
-    - cron: "0 6 * * *"
+    # 05:00 UTC = 08:00 in Israel during summer (IDT, UTC+3). Cron is fixed-offset UTC, so in
+    # winter (IST, UTC+2) this fires at 07:00 local. Change the hour here to shift delivery time.
+    - cron: "0 5 * * *"
   workflow_dispatch: {}
 
 permissions:
