@@ -1,4 +1,4 @@
-# Daily Quote Bot — Specification
+# Claude Daily Quote Bot — Specification
 
 A personal app that delivers one quote to me every day via **Telegram**, for free.
 
@@ -37,8 +37,8 @@ could be added later behind the same interface.
 ### F2 — Hybrid quote sourcing
 - **Curated source**: `quotes.json` — a list I own (`{text, author, tags}` objects).
 - **Web source**: free public API (default ZenQuotes; Quotable as an alternative). No key.
-- **Selection**: configurable weight (`WEB_SOURCE_PROBABILITY`, default `0.5`). Each run
-  rolls the weight to pick curated vs web.
+- **Selection**: configurable weight (`WEB_SOURCE_PROBABILITY`, default `0.0` = curated bank
+  only). Raise toward 1.0 to mix in random web quotes; each run rolls the weight.
 - **Fallback**: if the web API fails or times out, fall back to curated so a message is
   always sent.
 

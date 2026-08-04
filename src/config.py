@@ -12,7 +12,9 @@ ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_QUOTES_PATH = ROOT / "quotes.json"
 DEFAULT_STATE_PATH = ROOT / "state" / "sent_history.json"
 
-DEFAULT_WEB_SOURCE_PROBABILITY = 0.5
+# 0.0 = curated bank only (the hand-picked quotes.json). Raise toward 1.0 to mix in
+# random web quotes; the web source is a resilience fallback if a run ever needs it.
+DEFAULT_WEB_SOURCE_PROBABILITY = 0.0
 DEFAULT_NO_REPEAT_DAYS = 30
 DEFAULT_WEB_TIMEOUT_SECONDS = 10
 # ZenQuotes needs no API key. Quotable (https://api.quotable.io/random) is a drop-in

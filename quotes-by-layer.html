@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Quote Bank — by Operating-System Layer</title>
+<title>Claude Daily Quote Bot — Quotes by Layer</title>
 <style>
 :root{
   --bg:#faf9f7; --panel:#ffffff; --ink:#1c1d21; --muted:#6b7079; --line:#e7e4df;
@@ -53,7 +53,7 @@ mark{background:#ffd76a;color:#1c1d21;border-radius:3px;padding:0 1px}
 <body>
 <div class="wrap">
 <header>
-  <h1>Quote Bank — by Operating-System Layer</h1>
+  <h1>Claude Daily Quote Bot — Quotes by Layer</h1>
   <p><span id="total"></span> hand-picked quotes, classified into 8 layers. Search filters live across all layers; click a tag to filter by it.</p>
 </header>
 <div class="bar" id="bar"></div>
@@ -73,7 +73,6 @@ DATA.quotes.forEach(q => (byLayer[q.layer] || (byLayer[q.layer]=[])).push(q));
 
 document.getElementById('total').textContent = DATA.total;
 
-// distribution bar + legend
 const bar = document.getElementById('bar'), legend = document.getElementById('legend');
 DATA.layers.filter(l=>l.count>0).forEach(l=>{
   const s=document.createElement('span');

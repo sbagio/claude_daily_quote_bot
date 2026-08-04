@@ -1,4 +1,6 @@
-# Daily Quote Bot
+# Claude Daily Quote Bot
+
+Telegram: [@claude_daily_quote_bot](https://t.me/claude_daily_quote_bot)
 
 Sends one quote a day to your Telegram, for free, via GitHub Actions cron.
 See [SPEC.md](SPEC.md) for the full feature list.
