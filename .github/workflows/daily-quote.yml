@@ -2,9 +2,11 @@ name: Daily Quote
 
 on:
   schedule:
-    # 05:00 UTC = 08:00 in Israel during summer (IDT, UTC+3). Cron is fixed-offset UTC, so in
-    # winter (IST, UTC+2) this fires at 07:00 local. Change the hour here to shift delivery time.
-    - cron: "0 5 * * *"
+    # Hourly wake-up slots, not the delivery time. GitHub starts scheduled runs anywhere from
+    # minutes to 5+ hours late, so src/main.py sends on the first slot that starts at or after
+    # 06:30 Israel time and later slots skip. With hourly spacing that lands 06:30-07:30 local
+    # for any delay up to ~5.5h, in both IDT and IST. :43 avoids the top-of-hour queue spike.
+    - cron: "43 22,23,0,1,2,3,4 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -19,6 +21,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Scheduled runs default to the SHA from when they were queued; a later slot needs the
+          # sent_history.json an earlier slot pushed, or it double-sends.
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -31,7 +37,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python -m src.main
+        run: python -m src.main ${{ github.event_name == 'workflow_dispatch' && '--ignore-schedule' || '' }}
 
       - name: Commit updated state
         run: |

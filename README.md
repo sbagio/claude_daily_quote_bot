@@ -39,12 +39,17 @@ python -m src.main             # actually sends to your Telegram
 1. Push this repo to a **private** GitHub repo.
 2. Repo → **Settings → Secrets and variables → Actions** → add two secrets:
    `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID`.
-3. **Actions** tab → *Daily Quote* → **Run workflow** to test the manual trigger.
-4. The `schedule` cron then fires daily. Edit the cron in
-   [`.github/workflows/daily-quote.yml`](.github/workflows/daily-quote.yml) to your time.
+3. **Actions** tab → *Daily Quote* → **Run workflow** to test the manual trigger. Manual runs
+   send immediately, even if today's quote already went out.
+4. The `schedule` cron then wakes the job hourly overnight; the quote lands between about
+   06:30 and 07:30 Israel time.
 
-> **Timezone**: cron is UTC. `0 6 * * *` = 06:00 UTC. For 08:00 in Israel (UTC+3) use
-> `0 5 * * *`. DST shifts local time by an hour since UTC offset is fixed.
+> **Delivery time**: GitHub starts scheduled runs anywhere from minutes to 5+ hours late, so the
+> cron in [`.github/workflows/daily-quote.yml`](.github/workflows/daily-quote.yml) is a set of
+> hourly wake-up slots, not the send time. `should_send` in [`src/main.py`](src/main.py) sends on
+> the first slot at or after `EARLIEST_SEND` (06:30, `Asia/Jerusalem`, DST-aware) and skips the
+> rest of the day. To move delivery, change `EARLIEST_SEND` and shift the cron slots so they
+> still span "target minus the worst queue delay" through the target.
 
 > **60-day caveat**: GitHub disables scheduled workflows after 60 days of no repo activity.
 > The daily state commit counts as activity, so this stays alive on its own.

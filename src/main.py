@@ -6,9 +6,10 @@ import argparse
 import json
 import logging
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, time, timezone
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 from .config import load_config
 from .quotes import Quote, get_quote
@@ -20,6 +21,11 @@ logging.basicConfig(
 logger = logging.getLogger("daily_quote")
 
 DATE_FORMAT = "%A, %B %d, %Y"
+
+# GitHub's scheduled-run queue delay swings from minutes to 5+ hours, so the cron only provides
+# hourly wake-up slots and this gate picks the first one at or after EARLIEST_SEND, Israel time.
+DELIVERY_TZ = ZoneInfo("Asia/Jerusalem")
+EARLIEST_SEND = time(6, 30)
 
 
 def load_history(path: Path) -> list[dict[str, Any]]:
@@ -52,6 +58,21 @@ def append_history(
     )
 
 
+def should_send(now: datetime, history: list[dict[str, Any]]) -> tuple[bool, str]:
+    local_now = now.astimezone(DELIVERY_TZ)
+    for entry in history:
+        try:
+            sent_at = datetime.fromisoformat(entry["sent_at"])
+        except (KeyError, TypeError, ValueError):
+            logger.warning("Ignoring history entry with unreadable sent_at: %r", entry)
+            continue
+        if sent_at.astimezone(DELIVERY_TZ).date() == local_now.date():
+            return False, "already sent today"
+    if local_now.time() < EARLIEST_SEND:
+        return False, f"too early ({local_now:%H:%M} Israel time); a later slot will send"
+    return True, "due"
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Send a daily quote to Telegram.")
     parser.add_argument(
@@ -59,14 +80,26 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Select and print the quote without sending or writing state.",
     )
+    parser.add_argument(
+        "--ignore-schedule",
+        action="store_true",
+        help="Send now regardless of the time of day or whether today's quote already went out.",
+    )
     args = parser.parse_args(argv)
 
     config = load_config()
     now = datetime.now(timezone.utc)
     history = load_history(config.state_path)
 
+    due, reason = should_send(now, history)
+    if args.ignore_schedule:
+        logger.info("Schedule gate bypassed (would have been: %s).", reason)
+    elif not due:
+        logger.info("Not sending: %s.", reason)
+        return 0
+
     quote, source = get_quote(config, history, now=now)
-    date_label = now.strftime(DATE_FORMAT)
+    date_label = now.astimezone(DELIVERY_TZ).strftime(DATE_FORMAT)
 
     if args.dry_run:
         logger.info("[dry-run] source=%s", source)

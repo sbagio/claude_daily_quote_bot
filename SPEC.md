@@ -30,9 +30,12 @@ could be added later behind the same interface.
 ## Requirements (Features)
 
 ### F1 — Daily scheduled delivery
-- Sends exactly one quote per day at a configurable local time (default 08:00).
-- Triggered by GitHub Actions cron; also supports manual trigger (`workflow_dispatch`).
-- Cron is defined in UTC; the workflow documents the UTC↔local conversion.
+- Sends exactly one quote per day, around 07:00 Israel time (first run at or after 06:30
+  `Asia/Jerusalem`; `EARLIEST_SEND` in `src/main.py`).
+- GitHub's scheduled-run queue delay varies from minutes to 5+ hours (observed Sep 2026), so
+  the cron fires hourly slots overnight and `should_send` sends on the first slot past
+  `EARLIEST_SEND` whose Israel date has no entry in `sent_history.json`; other slots exit 0.
+- Manual trigger (`workflow_dispatch`) passes `--ignore-schedule` and sends immediately.
 
 ### F2 — Hybrid quote sourcing
 - **Curated source**: `quotes.json` — a list I own (`{text, author, tags}` objects).
@@ -64,7 +67,7 @@ could be added later behind the same interface.
 
 ### F7 — Scheduling on GitHub Actions
 - `.github/workflows/daily-quote.yml`: `schedule` cron + `workflow_dispatch`.
-- Private repo; free tier easily covers a ~1-min daily job.
+- Private repo; ~7 short slot runs/day ≈ 210 billed min/month, well inside the free tier.
 - **Caveat**: GitHub auto-disables cron workflows after 60 days of repo inactivity. Solved
   by F8's daily state commit, which counts as activity.
 
