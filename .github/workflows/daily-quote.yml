@@ -2,12 +2,17 @@ name: Daily Quote
 
 on:
   schedule:
-    # Hourly wake-up slots, not the delivery time. GitHub starts scheduled runs anywhere from
-    # minutes to 5+ hours late, so src/main.py sends on the first slot that starts at or after
-    # 06:30 Israel time and later slots skip. With hourly spacing that lands 06:30-07:30 local
-    # for any delay up to ~5.5h, in both IDT and IST. :43 avoids the top-of-hour queue spike.
-    - cron: "43 22,23,0,1,2,3,4 * * *"
-  workflow_dispatch: {}
+    # Backup only. The 07:00 delivery comes from an external cron (cron-job.org, Asia/Jerusalem)
+    # calling the workflow_dispatch API: GitHub starts scheduled runs hours late and, with hourly
+    # slots, created only ~2 of 7 per day (Sep 2026), so it can't hit a morning time on its own.
+    # If the external call fails, this run sends late; otherwise should_send() skips it.
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Send now, even if today's quote already went out"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -37,7 +42,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python -m src.main ${{ github.event_name == 'workflow_dispatch' && '--ignore-schedule' || '' }}
+        run: python -m src.main ${{ inputs.force && '--ignore-schedule' || '' }}
 
       - name: Commit updated state
         run: |
