@@ -20,7 +20,7 @@ could be added later behind the same interface.
 ## Architecture
 
 - **Language**: Python 3.11+
-- **Runtime**: GitHub Actions cron (serverless, free, private repo)
+- **Runtime**: GitHub Actions cron (serverless, free: public repo)
 - **Delivery**: Telegram Bot API
 - **Quotes**: hybrid — curated local `quotes.json` + a free public API, with fallback
 - **State**: `state/sent_history.json`, committed back by the Action each run
@@ -30,13 +30,13 @@ could be added later behind the same interface.
 ## Requirements (Features)
 
 ### F1 — Daily scheduled delivery
-- Sends exactly one quote per day at ~07:00 Israel time.
-- Primary trigger: an external cron (cron-job.org, 07:00 `Asia/Jerusalem`) POSTs to the
-  `workflow_dispatch` API. GitHub's own scheduler started runs hours late and created only
-  ~2 of 7 hourly slots per day (Sep 2026), so it is kept only as a late backup (`17 5 * * *`).
-- `should_send` gates every run: send only at or after `EARLIEST_SEND` (06:30
-  `Asia/Jerusalem`) and only if `sent_history.json` has no entry for today's Israel date;
-  otherwise exit 0. A manual run with the `force` input passes `--ignore-schedule`.
+- Sends exactly one quote per day at 07:00 Israel time (`SEND_AT`, `Asia/Jerusalem`).
+- GitHub starts scheduled runs 4–8h late and creates only some slots (Sep–Oct 2026), and an
+  external trigger was rejected (no third-party accounts). So the cron fires hourly slots
+  `17 0-4,14-23 * * *` UTC, and `time_until_due` makes the first run within
+  `MAX_WAIT_MINUTES` of 07:00 sleep until 07:00 and send. Runs exit 0 if today's Israel date is
+  already in `sent_history.json` or 07:00 is further away than the wait limit.
+- A manual run with the `force` input passes `--ignore-schedule` and sends immediately.
 
 ### F2 — Hybrid quote sourcing
 - **Curated source**: `quotes.json` — a list I own (`{text, author, tags}` objects).
@@ -68,7 +68,8 @@ could be added later behind the same interface.
 
 ### F7 — Scheduling on GitHub Actions
 - `.github/workflows/daily-quote.yml`: `schedule` cron + `workflow_dispatch`.
-- Private repo; ~2 short runs/day (trigger + backup) ≈ 60 billed min/month.
+- Public repo: standard-runner minutes are free and unlimited, which is what makes the
+  sleep-until-07:00 run free. The workflow forces a 0 wait unless the repo is public.
 - **Caveat**: GitHub auto-disables cron workflows after 60 days of repo inactivity. Solved
   by F8's daily state commit, which counts as activity.
 

@@ -6,7 +6,8 @@ import argparse
 import json
 import logging
 import sys
-from datetime import datetime, time, timezone
+import time as clock
+from datetime import datetime, time, timedelta, timezone
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
@@ -22,10 +23,11 @@ logger = logging.getLogger("daily_quote")
 
 DATE_FORMAT = "%A, %B %d, %Y"
 
-# GitHub's scheduled-run queue delay swings from minutes to 5+ hours, so the cron only provides
-# hourly wake-up slots and this gate picks the first one at or after EARLIEST_SEND, Israel time.
+# GitHub starts scheduled runs hours late and skips many, so the cron only provides overnight
+# wake-up slots: the first run that starts within the wait window sleeps until SEND_AT (Israel
+# time) and sends, later runs see today's entry in the history and exit.
 DELIVERY_TZ = ZoneInfo("Asia/Jerusalem")
-EARLIEST_SEND = time(6, 30)
+SEND_AT = time(7, 0)
 
 
 def load_history(path: Path) -> list[dict[str, Any]]:
@@ -58,7 +60,8 @@ def append_history(
     )
 
 
-def should_send(now: datetime, history: list[dict[str, Any]]) -> tuple[bool, str]:
+def time_until_due(now: datetime, history: list[dict[str, Any]]) -> timedelta | None:
+    """None if today's quote (Israel date) already went out, else the wait until SEND_AT (>= 0)."""
     local_now = now.astimezone(DELIVERY_TZ)
     for entry in history:
         try:
@@ -67,10 +70,9 @@ def should_send(now: datetime, history: list[dict[str, Any]]) -> tuple[bool, str
             logger.warning("Ignoring history entry with unreadable sent_at: %r", entry)
             continue
         if sent_at.astimezone(DELIVERY_TZ).date() == local_now.date():
-            return False, "already sent today"
-    if local_now.time() < EARLIEST_SEND:
-        return False, f"too early ({local_now:%H:%M} Israel time); a later slot will send"
-    return True, "due"
+            return None
+    due_at = datetime.combine(local_now.date(), SEND_AT, tzinfo=DELIVERY_TZ)
+    return max(due_at - local_now, timedelta(0))
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -85,18 +87,35 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Send now regardless of the time of day or whether today's quote already went out.",
     )
+    parser.add_argument(
+        "--max-wait-minutes",
+        type=int,
+        default=0,
+        help="If started before SEND_AT, sleep until then when it is at most this far away; "
+        "otherwise exit and leave it to a later run.",
+    )
     args = parser.parse_args(argv)
 
     config = load_config()
     now = datetime.now(timezone.utc)
     history = load_history(config.state_path)
 
-    due, reason = should_send(now, history)
+    wait = time_until_due(now, history)
     if args.ignore_schedule:
-        logger.info("Schedule gate bypassed (would have been: %s).", reason)
-    elif not due:
-        logger.info("Not sending: %s.", reason)
+        logger.info("Schedule gate bypassed.")
+    elif wait is None:
+        logger.info("Not sending: already sent today.")
         return 0
+    elif wait > timedelta(minutes=args.max_wait_minutes):
+        logger.info(
+            "Not sending: %s until %s Israel time exceeds the %d-minute wait limit.",
+            wait, SEND_AT.strftime("%H:%M"), args.max_wait_minutes,
+        )
+        return 0
+    elif wait:
+        logger.info("Waiting %s until %s Israel time.", wait, SEND_AT.strftime("%H:%M"))
+        clock.sleep(wait.total_seconds())
+        now = datetime.now(timezone.utc)
 
     quote, source = get_quote(config, history, now=now)
     date_label = now.astimezone(DELIVERY_TZ).strftime(DATE_FORMAT)

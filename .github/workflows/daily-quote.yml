@@ -2,11 +2,11 @@ name: Daily Quote
 
 on:
   schedule:
-    # Backup only. The 07:00 delivery comes from an external cron (cron-job.org, Asia/Jerusalem)
-    # calling the workflow_dispatch API: GitHub starts scheduled runs hours late and, with hourly
-    # slots, created only ~2 of 7 per day (Sep 2026), so it can't hit a morning time on its own.
-    # If the external call fails, this run sends late; otherwise should_send() skips it.
-    - cron: "17 5 * * *"
+    # Wake-up slots, not the send time. GitHub starts scheduled runs 4-8h late (Oct 2026) and
+    # creates only some of them, so slots run hourly from evening through morning (UTC). The
+    # first run that starts within MAX_WAIT_MINUTES of 07:00 Israel time sleeps until 07:00 and
+    # sends; earlier runs exit, later ones see today's send in the history and exit.
+    - cron: "17 0-4,14-23 * * *"
   workflow_dispatch:
     inputs:
       force:
@@ -21,9 +21,15 @@ concurrency:
   group: daily-quote
   cancel-in-progress: false
 
+env:
+  # Sleeping is free only on a public repo (standard runners, unlimited minutes). Must stay
+  # below the job timeout.
+  MAX_WAIT_MINUTES: 330
+
 jobs:
   send:
     runs-on: ubuntu-latest
+    timeout-minutes: 345
     steps:
       - uses: actions/checkout@v4
         with:
@@ -38,11 +44,25 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # Zero-cost guarantee: if the repo is ever made private (billed minutes), or the check
+      # fails, never sleep.
+      - name: Wait budget
+        id: budget
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          visibility="$(gh api "repos/$GITHUB_REPOSITORY" --jq .visibility || true)"
+          if [ "$visibility" = "public" ]; then minutes="$MAX_WAIT_MINUTES"; else minutes=0; fi
+          echo "visibility=${visibility:-unknown} max_wait_minutes=$minutes"
+          echo "minutes=$minutes" >> "$GITHUB_OUTPUT"
+
       - name: Send daily quote
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python -m src.main ${{ inputs.force && '--ignore-schedule' || '' }}
+        run: >-
+          python -m src.main --max-wait-minutes ${{ steps.budget.outputs.minutes }}
+          ${{ inputs.force && '--ignore-schedule' || '' }}
 
       - name: Commit updated state
         run: |

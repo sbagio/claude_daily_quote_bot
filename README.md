@@ -36,28 +36,24 @@ python -m src.main             # actually sends to your Telegram
 
 ### 3. Deploy on GitHub Actions (free)
 
-1. Push this repo to a **private** GitHub repo.
+1. Push this repo to a **public** GitHub repo (see *Cost* below — public is what makes it free).
 2. Repo → **Settings → Secrets and variables → Actions** → add two secrets:
-   `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID`.
+   `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID`. Secrets stay hidden on a public repo.
 3. **Actions** tab → *Daily Quote* → **Run workflow**, tick **force**, to test a send.
-4. Set up the 07:00 trigger (below). The `schedule` cron is only a late backup.
 
-> **Delivery time**: GitHub starts scheduled runs hours late and drops many of them (Sep 2026:
-> 2 of 7 hourly slots created per day), so it can't deliver at a set morning time. Instead an
-> external cron calls the `workflow_dispatch` API, which starts within seconds.
-> `should_send` in [`src/main.py`](src/main.py) still gates every non-forced run: it sends only
-> at or after `EARLIEST_SEND` (06:30, `Asia/Jerusalem`) and once per Israel date, so the
-> backup cron and any retry skip once today's quote is out.
->
-> **External trigger setup** (cron-job.org, free):
-> 1. GitHub → Settings → Developer settings → **Fine-grained token**: repository access
->    *Only* `claude_daily_quote_bot`, permission **Actions: Read and write**. Nothing else.
-> 2. cron-job.org → new job, schedule daily **07:00**, timezone **Asia/Jerusalem**
->    (handles DST), method **POST**, URL
->    `https://api.github.com/repos/sbagio/claude_daily_quote_bot/actions/workflows/daily-quote.yml/dispatches`,
->    headers `Authorization: Bearer <token>`, `Accept: application/vnd.github+json`,
->    body `{"ref":"main"}`. Success is HTTP 204.
-> 3. Fine-grained tokens expire; set a calendar reminder for the expiry date.
+> **Delivery time (07:00 Israel)**: GitHub starts scheduled runs 4–8h late and creates only
+> some of them, so the cron is a set of hourly wake-up slots, evening through morning (UTC).
+> `time_until_due` in [`src/main.py`](src/main.py) decides: the first run that starts within
+> `MAX_WAIT_MINUTES` (330) of `SEND_AT` (07:00, `Asia/Jerusalem`, DST-aware) sleeps until 07:00
+> and sends; earlier runs exit; later runs find today's send in `state/sent_history.json` and
+> exit. If no run starts before 07:00, the first one after it sends late.
+
+> **Cost: zero.** Standard GitHub-hosted runners are free and unlimited on public repos. The
+> workflow checks the repo's visibility on every run and passes a wait of 0 if it is not
+> public (or the check fails), so making it private again can't run up sleeping minutes; the
+> short slot runs alone fit the free private allowance, and a $0 spending limit blocks rather
+> than bills. Triggers are only `schedule` and `workflow_dispatch` (write access needed), so
+> nobody else can run it.
 
 > **60-day caveat**: GitHub disables scheduled workflows after 60 days of no repo activity.
 > The daily state commit counts as activity, so this stays alive on its own.
